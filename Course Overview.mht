@@ -1,0 +1,363 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: Course Overview
+Date: Sat, 10 May 2003 15:57:13 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0043_01C3170C.D28517D0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1165
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0043_01C3170C.D28517D0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www-courses.cs.uiuc.edu/~cs323/syllabus.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Course Overview</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<META content=3D"MSHTML 6.00.2800.1170" name=3DGENERATOR></HEAD>
+<BODY text=3D#000000 vLink=3D#00009f link=3D#0013ff bgColor=3D#fffae0>
+<H1><BOLD><FONT size=3D5>CS323 Fall 2002 Operating System=20
+Design</FONT></BOLD></H1>
+<H1><FONT color=3D#ff9933><BOLD>Course Overview </BOLD></FONT></H1>
+<H4>Updated 1/14/03 </H4>
+<HR>
+
+<H2>Staff</H2>Professor Yuanyuan Zhou, Instructor <A=20
+href=3D"http://www.cs.uiuc.edu/~yyzhou/">http://www.cs.uiuc.edu/~yyzhou/<=
+/A>=20
+<BR><BR><A=20
+href=3D"http://www.uiuc.edu/cgi-bin/where_is?bldg=3Ddcl&amp;room=3D3312">=
+Room 3312=20
+DCL</A>, Phone 244-4563
+<P>TAs: Jeff Carlyle, Alexander Kramnik, Pierre Salverda=20
+<P>
+<DD>
+<H2>&nbsp;</H2>
+<H2><IMG height=3D48 =
+src=3D"http://www-courses.cs.uiuc.edu/~cs323/icons/info.gif"=20
+width=3D48> Machine Problems</H2>The programming assignments in this =
+class are=20
+based on Nachos simulator. It is difficult to learn to implement new =
+operating=20
+system policies such as thread management, virtual memory, page =
+replacement and=20
+disk head scheduling in the kernel and so these are programmed as Nachos =
+
+simulation parts. You will extend the simulation and build a complete =
+operating=20
+system on top of Nachos. Most new operating systems are built using=20
+object-oriented design and coding. We will use C++.=20
+<H2><IMG height=3D14=20
+src=3D"http://www-courses.cs.uiuc.edu/~cs323/icons/greenball.gif" =
+width=3D14> One=20
+Unit Students</H2>Graduate students MAY take this course for one unit =
+instead of=20
+three quarters of a unit. (Undergraduates take this course for three =
+hours=20
+credit.) Those taking the class for more credit are expected to do more =
+work. In=20
+this case, the one unit students will do a project.=20
+<H2><IMG height=3D14=20
+src=3D"http://www-courses.cs.uiuc.edu/~cs323/icons/greenball.gif" =
+width=3D14>=20
+Prerequisite</H2>CS 225 is the prerequisite for CS323. Since CS110C =
+covers C in=20
+detail and basic concepts of some of the C++ concepts, and it is the=20
+prerequisite for CS 225, C++ will not be taught in this class. If you do =
+not=20
+know C or C++, you are advised to take the CS110 C++ programming =
+laboratory.=20
+<H2><IMG height=3D48 =
+src=3D"http://www-courses.cs.uiuc.edu/~cs323/icons/book.gif"=20
+width=3D48> Lectures</H2>9-9:50am Monday, Wednesday and Friday in <A=20
+href=3D"http://www.uiuc.edu/cgi-bin/where_is?bldg=3Ddcl&amp;room=3D3312">=
+Room 1320=20
+DCL</A>. No lecture on Mar 24th, 26th, 28th (Spring break). Lectures =
+cover only=20
+important operating system concepts and principles. <FONT =
+color=3D#ff0000>It is=20
+students' responsibility to read the textbook and related =
+materials.</FONT> You=20
+are expected to attend lectures, and will be responsible for all =
+announcements=20
+made during lecture, on the <A=20
+href=3D"http://www-courses.cs.uiuc.edu/~cs323/index.html">cs323 web =
+page</A>, and=20
+on the newsgroup, uiuc.class.cs323.=20
+<H2><IMG height=3D14=20
+src=3D"http://www-courses.cs.uiuc.edu/~cs323/icons/greenball.gif" =
+width=3D14>=20
+Laboratory Facilities from <A =
+href=3D"http://csil.cs.uiuc.edu/">CSIL</A></H2>We=20
+will be using the Sparc lab in 1235 and 1245 DCL. Course accounts have =
+been=20
+created from the advance enrollment roster. Your password is available =
+from the=20
+lab-sitter upon presenting your student ID card. The lab hours will be 9 =
+am to=20
+midnight, Monday through Thursday; 9 am to 7 PM Friday; 10 am to 5 PM =
+Saturday;=20
+and 10 am to midnight Sunday. If you register late or otherwise have =
+problems=20
+relating to the <B>existence of your account </B>or <B>membership in the =
+group=20
+cs323</B>, see the TA's; all other account problems should be directed =
+to the=20
+lab-sitters.=20
+<H2><IMG height=3D48 =
+src=3D"http://www-courses.cs.uiuc.edu/~cs323/icons/misc.gif"=20
+width=3D48> Course Outline</H2><PRE>Time-line of lectures and =
+assignments
+Time         Topic                    Material        Assignments      =
+Due
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+1/22-1/24  Introduction, Overview   Chap. 1         Reading         =20
+1/27-1/31  Processes/Threads        Chap. 2.1,2.2   Learn Nachos=20
+1/31-2/03  CPU scheduling           Chap. 2.5       MP 1(threads)      =
+<FONT color=3D#ff0000>Quiz 1</FONT>  =20
+2/05-2/14  Process Synchronization  Chap. 2.3, 2.4  MP 1               =
+<FONT color=3D#ff0000>MP1</FONT>
+2/17-2/21  Deadlock                 Chap. 3         MP 2 (multi-prog)
+2/24-2/28  Memory Management        Chap. 4.1,2,3,4 MP 2               =
+<FONT color=3D#ff0000>Quiz 2 </FONT>         =20
+3/03-3/07  Virtual Memory           Chap. 4.5,6,7,8 MP 2          <FONT =
+color=3D#ff0000>     MIDTERM 1(3/10)</FONT>
+3/10-3/14  I/O Systems              Chap. 5.1,2,3,4 MP 3 (vm)          =
+<FONT color=3D#ff0000>MP2</FONT>
+3/17-3/21  I/O Systems              Chap. 5.4,6,7,8,9 MP 3             =
+<FONT color=3D#ff0000>Quiz 3</FONT>         =20
+3/24-3/28  ------------------- Spring Vacation =
+--------------------------
+3/31-4/04  File Systems             Chap. 6         MP 3               =
+<FONT color=3D#ff0000>MP3</FONT>
+4/07-4/11  File                     Chap. 6.2       MP 4 (file)        =
+<FONT color=3D#ff0000>Quiz 4 </FONT>
+4/14-4/18  Multimedia Systems       Chap. 7         MP 4               =
+<FONT color=3D#ff0000>MIDTERM 2 (4/21)</FONT>
+4/21-4/25  Distributed Systems      Chap. 8.2,8.3   MP 4               =
+<FONT color=3D#ff0000>MP4</FONT>
+4/28-5/02  Security                 Chap. 9.1,2,3,4 MP 5 (net/dist)    =
+<FONT color=3D#ff0000>Quiz 5  </FONT>
+5/05-5/07  Protection               Chap. 9.5,6,7   MP 5               =
+<FONT color=3D#ff0000>MP5</FONT>
+5/10       Saturday, 8:00-11:00 am    FINAL EXAM   =20
+</PRE>
+<H2><IMG height=3D14=20
+src=3D"http://www-courses.cs.uiuc.edu/~cs323/icons/greenball.gif" =
+width=3D14> Exam=20
+Dates</H2>
+<UL>
+  <LI>Mid-term 1: Monday, 3/10, 7-8pm. DCL 1320 and MSEB 100=20
+  <LI>Mid-term 2: Monday, 4/21, 7-8pm, DCL 1320 and MSEB 100=20
+  <LI>Final exam: Saturday, 5/10, 8-11am, DCL 1320&nbsp; and Loomis 141 =
+</LI></UL>
+<H2><IMG height=3D14=20
+src=3D"http://www-courses.cs.uiuc.edu/~cs323/icons/greenball.gif" =
+width=3D14>=20
+Textbook</H2><I>Modern Operating Systems (Second Edition) </I>, Andrew =
+S.=20
+Tanenbaum, Prentice Hall, 2001=20
+<H2><IMG height=3D14=20
+src=3D"http://www-courses.cs.uiuc.edu/~cs323/icons/greenball.gif" =
+width=3D14>=20
+Recommended Books</H2><I>The C++ Programming Language</I>, Bjarne =
+Stroustrup,=20
+2nd Edition. Addison-Wesley: Reading, Massachusetts, 1993.=20
+<DD>
+<P></A></I>
+<H2><IMG height=3D14=20
+src=3D"http://www-courses.cs.uiuc.edu/~cs323/icons/greenball.gif" =
+width=3D14> Other=20
+Books</H2><I>Applied Operating System Concepts, Silberschatz, Galvin, =
+Gagne, 1th=20
+Edition, John Wiley&amp;Sons, Inc., 2000 <BR><I><OPERATING <br Galvin =
+and=20
+Silberschatz Edition, 5th Concepts, System><I>The Design of the Unix =
+O.S.,=20
+Maurice J. Bach.<BR><I>The UNIX System, S. R. Bourne. <BR><I>The =
+Mythical Man=20
+Month. F. Brooks.<BR><I>Operating System Design, D. Comer, T.=20
+Fossum.<BR><I>Internetworking with TCP/IP, Doug Comer.<BR><I>An =
+Introduction to=20
+Operating Systems, Harvey M. Deitel. <BR><I>Operating Systems: Design =
+and=20
+Implementation, Andrew S. Tanenbaum.<BR><I>The Logical Design of =
+Operating=20
+Systems, Alan Shaw.<BR><I>Operating Systems, Internals and Design =
+Principles,=20
+William Stalling.(3rd Edition)=20
+<BR></I></I></I></I></I></I></I></I></I></I></I></DD></BODY></HTML>
+
+------=_NextPart_000_0043_01C3170C.D28517D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www-courses.cs.uiuc.edu/~cs323/icons/info.gif
+
+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
+u+AN70ACAgA7
+
+------=_NextPart_000_0043_01C3170C.D28517D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www-courses.cs.uiuc.edu/~cs323/icons/greenball.gif
+
+R0lGODlhDgAOAPcAAP///5gAlzOZmZiXABERESIiIgAAVMv/ywAymAAzZgAzzAAy/QAyMmYyAGZl
+AABlmACYmADMmQD9mDKYAGWYAMwAmP0AmGWYmJmZmcyZAP2YAJgAMpgAZZgAzJgA/TKYyzOZ/5mY
+M5iYZZgyAJhlAJkzmJhlmDLLmDP/mJnMAJj9ADNmmWVlmMuYmP+ZmTIxADNmADIAMTIAZjIAmDMz
+mWUAmGUzmQBmMgCYMgBmZgCYZQDMMwD9MgDMZQD9ZcvLmMz/mf/Lmf/+mTIAzDIA/WUAzGUA/cwA
+MswAZf0AMv0AZTOZMzOZZWaZM2WYZcwAy8sA/f0Ay/0A/WaZzGWY/5iYy5mZ/8uYMsyYZv+YM/+Y
+ZTMzMzJlMjIyZTJlZWYAMmUyMmYAZWUyZcwyAMxlAP0yAP1lAABmzACZzABl/QCY/QDMzAD9ywDL
+/QD9/TPMADL9AGbMAGX9AMsymMxmmP8zmP9lmGbMmGX/mJjLmJn/mczLAMv9AP3LAP39AJkzM5ll
+M5kzZZhlZZgyy5hmzJgz/5hl/zLLyzP/zDPM/zP//5jLMpn/M5nMZpj/ZcuYy8zMzMuZ/8vL//+Z
+y//Ly/+Z/v/L/jIyyzJlyzMz/zNm/2Uyy2ZmzGUz/2Vl/8syMstlMssyZcxmZv8zM/9lM/8zZf9l
+ZTLLMjP/MzLLZTP/ZmXLMmb/M2bMZmX/Zcsyy8xmy8sz/8tl//8zy/9ly/8z/v9l/mbMzGX/y2XL
+/2X//5jLy5n/y5nM/5n//8vLMsz/M8zLZsv/Zf/MM//+M//LZf/+ZURERGVlMt3d3cv////+y+7u
+7hAAAJgAAAAQAGYAAAAAmAAAZnd3d4iIiKqqqru7u1VVVWZmZgAAEAAAIkQAAFQAAAAAzAAA3AAA
+7gAA/QAAMgAARACIAACYAACqAAC6AADMAADcAADuAAD9AMwAANwAAO4AAP0AAABEAABUAABmAAB2
+ACIAADIAAKoAALoAAAAiAAAyAHYAAIgAAAAAqgAAugAAdgAAiAAAACH5BAEAAAAALAAAAAAOAA4A
+BwhcAAEIHEiwoMGDA5mdkMfQykFmEJdheUfR4ImIEyk6JChvmccg1Ci+s8YRCxaQ0xhOm8aRIrVp
+1U4svEbQikh5J/Lk8fKv4M2cPGkWtJkyKMJr1/79E4qwqdOBAQEAIf8LTUFDR0NvbiAEAxAxAAAA
+AVdyaXR0ZW4gYnkgR0lGQ29udmVydGVyIDIuMy43IG9mIEphbiAyOSwgMTk5NAA7
+
+------=_NextPart_000_0043_01C3170C.D28517D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www-courses.cs.uiuc.edu/~cs323/icons/book.gif
+
+R0lGODlhMAAwAOcAAENDRayrrJVeQ5CToYppbUFHxCIeP5Sq3W1ubldBSFFXmNXW1J+fnxcMCZmZ
+mS4YD5aVlpWVlY9YQCksd1ZWVx4gVcDAv4iHiBsbHRsdSIODgwMEDL99W3l7jUg0MrKysZaXsHp5
+enh5eKysq3V1damqqKeopqlsT518blY1JaKXq9SfeZplSp6enbl8ZZOSklxdXIBnmjxDjFlZWUBD
+UY6OjSMiJFdXV8HBv1VVVVNTU0RGYsvLzElKvcnJyre3tbW1sxweNOe0iysuRmFALz8/P8GAX09P
+UnJycWh20bJ4ZKvC4S4yd21sbLfS8HVcdGtqajU1Na+vsEI5hFNCOGdmZjExMTE0kWFgYKa/6aCh
+oSEfIRwcJgsKEn6Pu1djonaHx5eXmMzMzISFglpMRVRfyqx3bpOTlCAjYkVERIqLi76+vjxAelBQ
+Urm6ubm4uTs6Ora2toCBgbW0tXx9fbh1VXt7fH9hlJOkz3d3eKuqq3V1dqqqqmg5JKioqKampqhz
+cI6g4Z6gnpqamrq8wC0tZMJ+W5OUk5KSkltbXMXFxOSwhoqKimRvvry9u4WGhS8wim161E5PT7m5
+uExNTSkVDYhecYGAgYCAgK6trUdKaTs1UF1SrXR0dFA8M3BwcGh20mtqazk+W2pqamhoaHZRQQcJ
+FpubmmVkZWRkZGJkYmJiYkhKWdGTbF9gX19eX11cXXxEKVpaWlkxIWReplMtGyEcGIeFhnxLNltM
+cg4PI0pKSjM4mo2Pj6G56Hx9e1xXVZtrcrCwrjw/sEJCQqC23RESM1hSsUBAQA8SMUcmHKSkomZJ
+N7efl+jn6FdeiGtrarbP7xMUOExQkd3d3SQmY8bGzRMQEFRDPEpTx+auhiYpchARLk1NTCAkYnuN
+2SQjXMuMaH9+fUlJSGFppVZXWBUXNoea3r29vXd2dbu7uxERHgIAAAAAAAAAAAAAAAAAAAAAAAEA
+AAIAAP8AAAAAAAIAAAAAAAAAAAAAAP8AAAAAAAIAAAAAAAAAAAIAACH5BAEAAHwALAAAAAAwADAA
+AAj+APkI5BNhlyhvCL2JWijqSI6HozBJjDCwosWLGAUyMtcD1LePScokGVnGUqtWdQQIiNWnlssU
+VKjQoPHwoUSJDDIKRIbnAJhtGZJJk2aswqYhyjwxI4BCyaJFQrRJPUnLl69Agc59+aLAW7IN1zLm
+cOKLnDdpXa5h2AInDbE0uygB2NUGThFicDxhI8NsFpVSpZ5caPZHCiEVT9aJjZYkixcmFQwE2WLD
+ShEAlLp1a3PjVSgRas6cWqYHiJRDDgQhQLIHGBlPhUwtLsCk0ZIleBSIiuLB7rhdmykkwoIqEQxX
+6S4MmqOIxwJqzpxRU1fhimyMOaIV2MarQLYk3yD+LFqhpJReMrJgwZohHIqddI8wNSE1StyZBcsc
+vUFjfTb3AgAWkIsRRoSzgjYruMACLgloggAmj/wSwiqp7HFLAJP4MQICYqjD33UXZbdddwGyQuCJ
+dYTTiiEgeEGODEyw8UwHA7TwQgiDKBJGHh1+6B+JAO5y4pAExhDJOVlEU4wXX8gwDQjWnOGDBjx6
+2B922v0XoJBEnqhEDwGWcaQvB8gwACI4UNnjlSFmCWQBXHZJ4B0B1nlFEC2gSSUPVoJokYhaBinn
+kMfUCeAV3OSJgxx5+BCHj1iOWGecgwJiaAGI5mmBOHkoMgekbUq65aBD0mlnooisQUenUqCRSxf+
+P05K6okuFBpgpqn+kgcOARAhQQOxjjorgcGcmic6IeSxhh++AhtpoHAOeyItt6LqiAh5qLNMs8EK
+Kq0RXx5qbTp5vKEFt5EW8ialw5qKqzok5PFDC+iGCi27w3KCKapudJLHHIPU+6ebsn5LoKW4ToJE
+HlJAIHBFgK5r8Il3JPxJHpm88PBAERc8sRG5oPpDE3kE0MvGAnVc4scEnvBAnnFAk0cJaqDMh8oA
+asKyES7nCcQoefxxgc04F6Azyz0jAgQpeSwzBtEEB3j0x0kDUUUeDFwCtag575z0B6jk0QIdW0M7
+9cRfq5LHKSKU/ebZBictDBZ5OLCH23XC/a3+3K7kAQEShUwB67Nve/0yIsLAkMcZn4A6MNdGG55n
+JonkgQg0jkMcdddIHx7ADHnUQErmHG8e+ce04DrCDXmokQrpKZuuN6m17pvnCBTkcQEWsPOBSQfT
+TFD4t7XbjsjNedwCS+98MLIDN9UMI/W3ZthqfAk65DHGDcwLFEE5XBgzwTCzEwkImNXm6UcbeVyy
+SvcV9XIEF1zMIgELRnDAgfnop4+ICZJYnCqqkwudZKQgtqiEMnAhgDoYwYHB6J//AGiHNqTBDwbM
+YPN2kUBl9AEXlriUuPL0hya8RYMo1AgyrlGJCkBCeobCVROisIsU2lAgJFihLlwIw33VoBcsWxjF
+DYeIQ2RsQBfgmMIwEJWOIBLxiXxgwCiicMQMcOMCJICiFqM4RSvYMCAAOw==
+
+------=_NextPart_000_0043_01C3170C.D28517D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www-courses.cs.uiuc.edu/~cs323/icons/misc.gif
+
+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
+
+------=_NextPart_000_0043_01C3170C.D28517D0--

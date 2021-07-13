@@ -1,0 +1,2123 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: CS 323 Operating Systems Design
+Date: Sat, 10 May 2003 15:57:01 -0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01C3170C.CB50C360"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1165
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cs.uiuc.edu/education/courses/cs323.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>CS 323 Operating Systems Design</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252"><!-- start header include --><LINK=20
+href=3D"http://www.cs.uiuc.edu/js/cs.css" type=3Dtext/css =
+rel=3Dstylesheet>
+<SCRIPT language=3DJavaScript =
+src=3D"http://www.cs.uiuc.edu/js/array.js"></SCRIPT>
+
+<SCRIPT language=3DJavaScript=20
+src=3D"http://www.cs.uiuc.edu/js/layerovers.js"></SCRIPT>
+<!-- end header include -->
+<META content=3D"MSHTML 6.00.2800.1170" name=3DGENERATOR></HEAD>
+<BODY bgColor=3D#ffffff leftMargin=3D0 topMargin=3D0 MARGINWIDTH=3D"0" =
+MARGINHEIGHT=3D"0">
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR WIDTH=3D"100%">
+    <TD vAlign=3Dtop bgColor=3D#232f51><A =
+href=3D"http://www.cs.uiuc.edu/"><IMG=20
+      height=3D43 alt=3D" " =
+src=3D"http://www.cs.uiuc.edu/includes/img/space.gif"=20
+      width=3D17 border=3D0></A></TD>
+    <TD vAlign=3Dtop><A href=3D"http://www.cs.uiuc.edu/"><IMG =
+height=3D43=20
+      alt=3D"Go to home page"=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/top_logo_1.gif" =
+width=3D45=20
+      border=3D0></A></TD>
+    <TD vAlign=3Dtop><A href=3D"http://www.cs.uiuc.edu/"><IMG =
+height=3D43=20
+      alt=3D"Go to home page"=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/top_image.gif" =
+width=3D598=20
+      border=3D0></A></TD>
+    <TD vAlign=3Dtop noWrap width=3D"100%" bgColor=3D#232f51><A=20
+      =
+href=3D"http://www.cs.uiuc.edu/">&nbsp;</A></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR WIDTH=3D"100%">
+    <TD vAlign=3Dtop rowSpan=3D3><A =
+href=3D"http://www.cs.uiuc.edu/"><IMG height=3D44=20
+      alt=3D" " =
+src=3D"http://www.cs.uiuc.edu/includes/img/top_blue_hl.gif" width=3D17=20
+      border=3D0></A></TD>
+    <TD vAlign=3Dtop rowSpan=3D3><A =
+href=3D"http://www.cs.uiuc.edu/"><IMG height=3D44=20
+      alt=3D"Go to Home Page"=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/top_logo_2.gif" =
+width=3D45=20
+      border=3D0></A></TD>
+    <TD vAlign=3Dtop rowSpan=3D3><A onmouseover=3D"hideAll('')"=20
+      href=3D"http://www.cs.uiuc.edu/"><IMG height=3D44 alt=3D" "=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/top_blue_hl.gif" =
+width=3D51=20
+      border=3D0></A></TD>
+    <TD vAlign=3Dtop colSpan=3D6><A onmouseover=3D"hideAll('')"=20
+      href=3D"javascript:void(null)"><IMG height=3D5 alt=3D" "=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/top_line.gif" =
+width=3D512=20
+      border=3D0></A></TD></A>
+    <TD vAlign=3Dtop bgColor=3D#85a3c2 rowSpan=3D3><A =
+onmouseover=3D"hideAll('')"=20
+      href=3D"http://www.uiuc.edu/"><IMG height=3D44 alt=3D"Go to UIUC =
+site"=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/top_uofi_logo.gif" =
+width=3D27=20
+      border=3D0></A></TD>
+    <TD vAlign=3Dtop noWrap width=3D"100%"=20
+    background=3Dhttp://www.cs.uiuc.edu/includes/img/top_gray_bg.gif=20
+      rowSpan=3D3><IMG height=3D10 alt=3D" "=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/space.gif" =
+width=3D100></TD></TR>
+  <TR>
+    <TD vAlign=3Dtop bgColor=3D#85a3c2><A=20
+      onmouseover=3D"hideAll('Education');img_act('top_education')"=20
+      href=3D"http://www.cs.uiuc.edu/education/index.html"><IMG =
+height=3D20=20
+      alt=3DEducation =
+src=3D"http://www.cs.uiuc.edu/includes/img/top_education.gif"=20
+      width=3D99 border=3D0 name=3Dtop_education></A></TD>
+    <TD vAlign=3Dtop bgColor=3D#85a3c2><A=20
+      onmouseover=3D"hideAll('People');img_act('top_people')"=20
+      href=3D"http://www.cs.uiuc.edu/people/index.html"><IMG height=3D20 =
+alt=3DPeople=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/top_people.gif" =
+width=3D67 border=3D0=20
+      name=3Dtop_people></A></TD>
+    <TD vAlign=3Dtop bgColor=3D#85a3c2><A=20
+      onmouseover=3D"hideAll('Research');img_act('top_research')"=20
+      href=3D"http://www.cs.uiuc.edu/research/index.html"><IMG =
+height=3D20=20
+      alt=3DResearch =
+src=3D"http://www.cs.uiuc.edu/includes/img/top_research.gif"=20
+      width=3D79 border=3D0 name=3Dtop_research></A></TD>
+    <TD vAlign=3Dtop bgColor=3D#85a3c2><A=20
+      onmouseover=3D"hideAll('AboutUs');img_act('top_aboutus')"=20
+      href=3D"http://www.cs.uiuc.edu/about/index.html"><IMG height=3D20=20
+      alt=3D"About Us" =
+src=3D"http://www.cs.uiuc.edu/includes/img/top_aboutus.gif"=20
+      width=3D81 border=3D0 name=3Dtop_aboutus></A></TD>
+    <TD vAlign=3Dtop bgColor=3D#85a3c2><A=20
+      onmouseover=3D"hideAll('JoinUs');img_act('top_joinus')"=20
+      href=3D"http://www.cs.uiuc.edu/join/index.html"><IMG height=3D20 =
+alt=3D"Join Us"=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/top_joinus.gif" =
+width=3D68 border=3D0=20
+      name=3Dtop_joinus></A></TD>
+    <TD vAlign=3Dtop bgColor=3D#85a3c2><A=20
+      onmouseover=3D"hideAll('News');img_act('top_news')"=20
+      href=3D"http://www.cs.uiuc.edu/news/index.html"><IMG height=3D20=20
+      alt=3D"News &amp; Events"=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/top_news.gif" =
+width=3D118 border=3D0=20
+      name=3Dtop_news></A></TD></TR>
+  <TR WIDTH=3D"100%">
+    <TD vAlign=3Dtop bgColor=3D#85a3c2 colSpan=3D6><IMG height=3D18 =
+alt=3D" "=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/space.gif" =
+width=3D100></TD></TR>
+  <TR WIDTH=3D"100%">
+    <TD vAlign=3Dtop colSpan=3D6><IMG height=3D1 alt=3D" "=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/space.gif"=20
+  width=3D100></TD></TR></TBODY></TABLE>
+<SCRIPT language=3DJavascript>=0A=
+<!-- **begin button rollever script**=0A=
+=0A=
+if(document.images) {   //Active Images=0A=
+    img1on=3Dnew Image();=0A=
+    img1on.src=3D"/images/home/cscrs1.gif";=0A=
+    img2on=3Dnew Image();=0A=
+    img2on.src=3D"/images/home/prvcrs1.gif";=0A=
+    img3on=3Dnew Image();=0A=
+    img3on.src=3D"/images/home/nxtcrs1.gif";=0A=
+    img4on=3Dnew Image();=0A=
+    img4on.src=3D"/images/home/facbut1.gif";=0A=
+    img5on=3Dnew Image();=0A=
+    img5on.src=3D"/images/home/ugprg1.gif";=0A=
+    img6on=3Dnew Image();=0A=
+    img6on.src=3D"/images/home/grprg1.gif";=0A=
+    img7on=3Dnew Image();=0A=
+    img7on.src=3D"/images/home/intprg1.gif";=0A=
+=0A=
+    =0A=
+    img1off=3Dnew Image();=0A=
+    img1off.src=3D"/images/home/cscrs0.gif";=0A=
+    img2off=3Dnew Image();=0A=
+    img2off.src=3D"/images/home/prvcrs0.gif";=0A=
+    img3off=3Dnew Image();=0A=
+    img3off.src=3D"/images/home/nxtcrs0.gif";=0A=
+    img4off=3Dnew Image();=0A=
+    img4off.src=3D"/images/home/facbut0.gif";=0A=
+    img5off=3Dnew Image();=0A=
+    img5off.src=3D"/images/home/ugprg0.gif";=0A=
+    img6off=3Dnew Image();=0A=
+    img6off.src=3D"/images/home/grprg0.gif";=0A=
+    img7off=3Dnew Image();=0A=
+    img7off.src=3D"/images/home/intprg0.gif";=0A=
+=0A=
+    }=0A=
+    =0A=
+    //function to 'activate' images.=0A=
+    function imgOn(imgName) {=0A=
+    if (document.images){=0A=
+       document[imgName].src=3Deval(imgName+"on.src");=0A=
+       =0A=
+          }=0A=
+     }=0A=
+     //function to 'deactivate' images.=0A=
+     function imgOff(imgName) {=0A=
+        if(document.images) {=0A=
+           document[imgName].src=3Deval(imgName+"off.src");=0A=
+           }=0A=
+         }=0A=
+         =0A=
+         //-->=0A=
+         =0A=
+         </SCRIPT>
+
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D627 border=3D0>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop width=3D101 bgColor=3D#85a3c2 rowSpan=3D2>
+      <DIV align=3Dleft>
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D101 border=3D0>
+        <TBODY>
+        <TR>
+          <TD width=3D101 height=3D144><IMG height=3D155 alt=3D"DCL =
+photo"=20
+            src=3D"http://www.cs.uiuc.edu/images/pages/coursesb.jpg" =
+width=3D101=20
+            border=3D0></TD></TR>
+        <TR>
+          <TD vAlign=3Dtop width=3D101 height=3D15><IMG height=3D15=20
+            src=3D"http://www.cs.uiuc.edu/images/pages/space5.gif" =
+width=3D5=20
+            border=3D0></TD></TR>
+        <TR>
+          <TD vAlign=3Dtop width=3D101><IMG height=3D25 alt=3D"CS =
+Courses graphic"=20
+            src=3D"http://www.cs.uiuc.edu/images/home/courses.gif" =
+width=3D101=20
+            border=3D0><BR><A onmouseover=3D"imgOn('img1')"=20
+            onmouseout=3D"imgOff('img1')"=20
+            =
+href=3D"http://www.cs.uiuc.edu/education/courses/index.html"><IMG=20
+            height=3D25 alt=3D"CS Courses List"=20
+            src=3D"http://www.cs.uiuc.edu/images/home/cscrs0.gif" =
+width=3D101=20
+            border=3D0 name=3Dimg1></A><BR><A =
+onmouseover=3D"imgOn('img2')"=20
+            onmouseout=3D"imgOff('img2')"=20
+            =
+href=3D"http://www.cs.uiuc.edu/education/courses/cs322.html"><IMG=20
+            height=3D25 alt=3D"Previous CS Course"=20
+            src=3D"http://www.cs.uiuc.edu/images/home/prvcrs0.gif" =
+width=3D101=20
+            border=3D0 name=3Dimg2></A><BR><A =
+onmouseover=3D"imgOn('img3')"=20
+            onmouseout=3D"imgOff('img3')"=20
+            =
+href=3D"http://www.cs.uiuc.edu/education/courses/cs324.html"><IMG=20
+            height=3D25 alt=3D"Next CS Course"=20
+            src=3D"http://www.cs.uiuc.edu/images/home/nxtcrs0.gif" =
+width=3D101=20
+            border=3D0 name=3Dimg3></A><BR><IMG height=3D3 alt=3D"Orange =
+Line graphic"=20
+            src=3D"http://www.cs.uiuc.edu/images/home/or5box.gif" =
+width=3D101=20
+            border=3D0><BR><A onmouseover=3D"imgOn('img4')"=20
+            onmouseout=3D"imgOff('img4')"=20
+            =
+href=3D"http://www.cs.uiuc.edu/people/faculty/index.html"><IMG=20
+            height=3D25 alt=3D"Faculty Directory"=20
+            src=3D"http://www.cs.uiuc.edu/images/home/facbut0.gif" =
+width=3D101=20
+            border=3D0 name=3Dimg4></A><BR><IMG height=3D3 alt=3D"Orange =
+Line graphic"=20
+            src=3D"http://www.cs.uiuc.edu/images/home/or5box.gif" =
+width=3D101=20
+            border=3D0><BR><IMG height=3D25 alt=3D"List of CS Programs =
+graphic"=20
+            src=3D"http://www.cs.uiuc.edu/images/home/progs.gif" =
+width=3D101=20
+            border=3D0><BR><A onmouseover=3D"imgOn('img5')"=20
+            onmouseout=3D"imgOff('img5')"=20
+            =
+href=3D"http://www.cs.uiuc.edu/education/undergrad/programs.html"><IMG=20
+            height=3D25 alt=3D"Undergraduate Programs"=20
+            src=3D"http://www.cs.uiuc.edu/images/home/ugprg0.gif" =
+width=3D101=20
+            border=3D0 name=3Dimg5></A><BR><A =
+onmouseover=3D"imgOn('img6')"=20
+            onmouseout=3D"imgOff('img6')"=20
+            =
+href=3D"http://www.cs.uiuc.edu/education/grad/index.html"><IMG=20
+            height=3D25 alt=3D"Graduate Programs"=20
+            src=3D"http://www.cs.uiuc.edu/images/home/grprg0.gif" =
+width=3D101=20
+            border=3D0 name=3Dimg6></A><BR><A =
+onmouseover=3D"imgOn('img7')"=20
+            onmouseout=3D"imgOff('img7')"=20
+            =
+href=3D"http://www.cs.uiuc.edu/education/i2cs/index.html"><IMG=20
+            height=3D25 alt=3D"Internet CS Programs"=20
+            src=3D"http://www.cs.uiuc.edu/images/home/intprg0.gif" =
+width=3D101=20
+            border=3D0 =
+name=3Dimg7></A><BR></TD></TR></TBODY></TABLE></DIV>
+      <P> </P></TD>
+    <TD vAlign=3Dtop width=3D511 colSpan=3D2><IMG height=3D20=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/space.gif" width=3D5=20
+      border=3D0><BR><IMG height=3D44 alt=3D"Students studying"=20
+      src=3D"http://www.cs.uiuc.edu/images/pages/coursesl.jpg" =
+width=3D77=20
+      border=3D0><BR><BR></TD></TR>
+  <TR>
+    <TD vAlign=3Dtop width=3D5><IMG height=3D1=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/space.gif" width=3D20 =
+border=3D0> </TD>
+    <TD vAlign=3Dtop width=3D511>
+      <H2><FONT color=3D#006666>Computer Science 323/ Computational =
+Science and=20
+      Engineering 323&nbsp;</FONT><FONT color=3D#212d4f><BR>Operating =
+Systems=20
+      Design</FONT></H2>The organization and structure of modern =
+operating=20
+      systems and concurrent programming concepts. Deadlock, virtual =
+memory,=20
+      processor scheduling, and disk systems. Performance, security, and =
+
+      protection.<BR>&nbsp;&nbsp;<BR>
+      <DIV align=3Dleft>
+      <TABLE cellSpacing=3D0 cellPadding=3D0 width=3D511 border=3D0>
+        <TBODY>
+        <TR>
+          <TD><FONT color=3D#212d4f><B>Course Objectives&nbsp;=20
+            <BR></B></FONT>This course discusses the design of modern =
+computer=20
+            operating systems and concurrent programming.</TD></TR>
+        <TR>
+          <TD><IMG height=3D5=20
+            src=3D"http://www.cs.uiuc.edu/images/pages/space.gif" =
+width=3D5=20
+            border=3D0><BR><FONT color=3D#212d4f><B>General Education=20
+            Requirement</B></FONT> <BR>No</TD></TR>
+        <TR>
+          <TD><IMG height=3D5=20
+            src=3D"http://www.cs.uiuc.edu/images/pages/space.gif" =
+width=3D5=20
+            border=3D0><FONT color=3D#212d4f><B><BR>Prerequisite&nbsp; =
+</B><BR><A=20
+            style=3D"COLOR: #006699"=20
+            =
+href=3D"http://www.cs.uiuc.edu/education/courses/cs225.html">CS=20
+            225</A> and <A style=3D"COLOR: #006699"=20
+            =
+href=3D"http://www.cs.uiuc.edu/education/courses/cs232.html">CS=20
+            232</A> or <A style=3D"COLOR: #006699"=20
+            href=3D"http://www.ece.uiuc.edu/coursedes/291.html">ECE=20
+          291</A></FONT></TD></TR>
+        <TR>
+          <TD><IMG height=3D5=20
+            src=3D"http://www.cs.uiuc.edu/images/pages/space.gif" =
+width=3D5=20
+            border=3D0><BR><FONT color=3D#212d4f><B>Credit&nbsp; =
+<BR></B></FONT>3=20
+            hours, or 3/4 or 1 unit</TD></TR>
+        <TR>
+          <TD><IMG height=3D5=20
+            src=3D"http://www.cs.uiuc.edu/images/pages/space.gif" =
+width=3D5=20
+            border=3D0><FONT color=3D#212d4f><B><BR>Format&nbsp; =
+<BR></B></FONT>3=20
+            hours of lecture per week</TD></TR>
+        <TR>
+          <TD><IMG height=3D5=20
+            src=3D"http://www.cs.uiuc.edu/images/pages/space.gif" =
+width=3D5=20
+            border=3D0><FONT=20
+            color=3D#212d4f><B><BR>Semester&nbsp;<BR></B></FONT>Usually =
+offered=20
+            fall and spring; <A style=3D"COLOR: #006699"=20
+            =
+href=3D"http://www.uiuc.edu/admin_manual/Courses/time.top.html">timetable=
+</A></TD></TR>
+        <TR>
+          <TD><IMG height=3D5=20
+            src=3D"http://www.cs.uiuc.edu/images/pages/space.gif" =
+width=3D5=20
+            border=3D0><FONT color=3D#212d4f><B><BR>Course Web =
+Site&nbsp;<BR></B><A=20
+            style=3D"COLOR: #006699"=20
+            =
+href=3D"http://www-courses.cs.uiuc.edu/~cs323/">www-courses.cs.uiuc.edu/~=
+cs323/</A></FONT></TD></TR>
+        <TR>
+          <TD><B><FONT color=3D#212d4f>Recent Textbook&nbsp;=20
+            </FONT></B><BR><FONT color=3D#212d4f><B>&nbsp;&nbsp;=20
+            </B></FONT>Required:<BR>&nbsp;&nbsp;&nbsp;&nbsp; <I>Modern =
+Operating=20
+            Systems, </I>2nd edition;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+by=20
+            Tanenbaum; Prentice Hall; 0-13-031358-0<B><FONT=20
+            color=3D#212d4f><BR></FONT></B><FONT size=3D2>**updated to =
+reflect=20
+            Spring 2003 selections</FONT></TD></TR>
+        <TR>
+          <TD><FONT color=3D#212d4f><B>Laboratory Work&nbsp;=20
+            <BR></B></FONT>Computer programming on Sun Sparc=20
+            =
+workstations.<BR>&nbsp;&nbsp;</TD></TR></TBODY></TABLE></DIV>
+      <DIV align=3Dleft>
+      <TABLE height=3D119 cellSpacing=3D1 cellPadding=3D3 width=3D511 =
+bgColor=3D#c0c0c0=20
+      border=3D0>
+        <TBODY>
+        <TR>
+          <TD align=3Dmiddle width=3D30 bgColor=3D#bacbdc=20
+            height=3D30><B>Hours&nbsp;&nbsp;&nbsp;</B></TD>
+          <TD width=3D471 bgColor=3D#bacbdc =
+height=3D30><B>Topics</B></TD></TR>
+        <TR>
+          <TD vAlign=3Dtop align=3Dmiddle width=3D30 bgColor=3D#eff7ff =
+height=3D1>14</TD>
+          <TD vAlign=3Dtop width=3D471 bgColor=3D#eff7ff =
+height=3D1>Processes and=20
+            concurrent programming. Basic concepts: states, transitions. =
+Mutual=20
+            exclusion, synchronization, semaphores, monitors, Ada =
+rendezvous.=20
+            Deadlock and indefinite postponement; prevention, avoidance, =
+
+            detection, recovery. </TD></TR>
+        <TR>
+          <TD vAlign=3Dtop align=3Dmiddle width=3D30 bgColor=3D#eff7ff =
+height=3D1>14 </TD>
+          <TD vAlign=3Dtop width=3D471 bgColor=3D#eff7ff =
+height=3D1>Operating system=20
+            components. Real and virtual memory; paging and =
+segmentation; fetch,=20
+            placement, and replacement algorithms; thrashing. Processor=20
+            scheduling; disk space management and allocation; seek and=20
+            rotational optimization; blocking and buffering. File =
+systems;=20
+            directory structures; access methods; access control.&nbsp; =
+</TD></TR>
+        <TR>
+          <TD vAlign=3Dtop align=3Dmiddle width=3D30 bgColor=3D#eff7ff =
+height=3D1>15 </TD>
+          <TD vAlign=3Dtop width=3D471 bgColor=3D#eff7ff =
+height=3D1>Advanced topics.=20
+            Performance evaluation. Distributed and parallel operating =
+systems.=20
+            Object orientation. Security and protection; encryption. =
+Case=20
+            Studies.&nbsp; =
+</TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE>
+<P>&nbsp;</P>
+<TABLE height=3D25 cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+  <TBODY>
+  <TR WIDTH=3D"100%">
+    <TD vAlign=3Dtop width=3D25 rowSpan=3D3><IMG height=3D1 alt=3D" "=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/space.gif" =
+width=3D25></TD>
+    <TD vAlign=3Dtop width=3D"100%" bgColor=3D#4f7ba7 colSpan=3D3><IMG =
+height=3D1=20
+      alt=3D" " src=3D"http://www.cs.uiuc.edu/includes/img/space.gif"=20
+  width=3D400></TD></TR>
+  <TR WIDTH=3D"100%">
+    <TD vAlign=3Dtop width=3D"100%" colSpan=3D3><IMG height=3D5 alt=3D" =
+"=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/space.gif" =
+width=3D1></TD></TR>
+  <TR WIDTH=3D"100%">
+    <TD vAlign=3Dcenter width=3D32><A =
+href=3D"http://www.cs.uiuc.edu/"><IMG=20
+      height=3D32 alt=3D" Logo"=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/footer_logo.gif" =
+width=3D32=20
+      vspace=3D3 border=3D0></A></TD>
+    <TD vAlign=3Dtop width=3D10><IMG height=3D1 alt=3D" "=20
+      src=3D"http://www.cs.uiuc.edu/includes/img/space.gif" =
+width=3D10></TD>
+    <TD vAlign=3Dtop noWrap width=3D"100%">
+      <P align=3Dleft><FONT style=3D"COLOR: #4f7ba7">Department of =
+Computer Science,=20
+      3270 Digital Computer Lab, 1304 W. Springfield Ave, Urbana, IL=20
+      61801.<BR>The Department&nbsp; is part of the <A style=3D"COLOR: =
+#72737e"=20
+      href=3D"http://www.engr.uiuc.edu/">College of Engineering</A> at =
+the <A=20
+      style=3D"COLOR: #72737e" href=3D"http://www.uiuc.edu/">University =
+of Illinois=20
+      at Urbana-Champaign</A>.<BR>Contact <A style=3D"COLOR: #72737e"=20
+      href=3D"mailto:webmaster@cs.uiuc.edu">webmaster@cs.uiuc.edu</A> =
+with=20
+      questions or comments on this page or <A style=3D"COLOR: #72737e"=20
+      href=3D"mailto:academic@cs.uiuc.edu">academic@cs.uiuc.edu</A> =
+<BR>with=20
+      academic questions. This site was created 12/01/01.</FONT>=20
+  </P></TD></TR></TBODY></TABLE><BR>
+<SCRIPT language=3DJavaScript>=0A=
+<!--=0A=
+//write in all divs for menus=0A=
+writeDivs();=0A=
+//-->=0A=
+</SCRIPT>
+</BODY></HTML>
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/space.gif
+
+R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/top_logo_1.gif
+
+R0lGODlhLQArAMQAAIWjwiMvUf///++KCUE9RjU3SywzTnmAlYuRo52isa2xvsDDzdnb4TA8XSYz
+VCo3WDhFZUFObEZWdlFgfvHy9FpsiWN3lm2GpnaRsH+bu92CD8h5F6hrIpFgKm1QN1BDQSwAAAAA
+LQArAAAF/2AgjmRpnmiqrmzrvnAsz3Rt33iu73zv/ypIAoFILBYICVDkkCAfIshhQVlYfhajQrFQ
+WKCBCpVRceQakwQDoTCnGYxERFRhCBaTmyTBPSiqCA0BDQgMFAkQAQYIFAKIMw0WawoHAREJB4YJ
+Sg0JFBSBAU4CDJUwEwqlmQwKCQkBD5mHc6NkAQ4IAgIKiS2oFQlQCBaFs4MJAqBQB428YXYMVywJ
+E5ci1IMKyXKiC6QVARPepQEQ3o6CKgkGl2YHpsC5oCK5uw0OyPYB+Xjq5QqC0ohoAHACtDwGvwVg
+RioPQwqmTrx6sAmWgjkBiMCql6DBA22OLNmZlxCdxGWmDv8giOIsHDRwDBlEeHBuQQMIdu5gJFFR
+QhtLLQ+8YqkrgYOEEPHpYjCB4NI8JBCYwpZxZTao9BotiGCuaKxGECnqgkgijZkKPyFcFIEqHZ2R
+B5zqrNDI0YN6AhCYuaUgj4EE4AJYUDBiSIkI5zrWo1BBQs4FEPC2BMYWoCIvIj4GHqFW11aGeSPk
+lBkT40eomEQgxuik1wix3+gWRTy2glDX4RRAabBAycKfv8GQOKBLwIGSvRPvLZE6jO5rVjMOLSHb
+UUkymJaXMIdRY7bAHyOSqN53pDQVaHdj7ubb3GYSjpcK9T3N6mo6LRFjhQ8XBsHA4vTiBxji0Acf
+VTA4gdEtgPQEw9Z7OaCVThFMDKFdD2xAQZFVsbj1g2HZiLeERaagMWIJBJ134nb78RACADs=
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/top_image.gif
+
+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
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/top_blue_hl.gif
+
+R0lGODlhGQAsAKIAAJiYpiMvUYWjwu+KCY1eKwAAAAAAAAAAACwAAAAAGQAsAAADMDi63P4wyklr
+JDjrzbX4YCiOZGmeaKqubOu+cCzPdG3feK7vfO//wKBwSCwaj0hdAgA7
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/top_logo_2.gif
+
+R0lGODlhLQAsAMQAAIWjwiMvUf///++KCUE9RjU3SywzTnmAlYuRo52isa2xvsDDzdnb4TA8XSYz
+VCo3WDhFZUFObEZWdlFgfvHy9FpsiWN3lm2GpnaRsH+bu92CD8h5F6hrIpFgKm1QN1BDQSwAAAAA
+LQAsAAAF/+AgjmRpDprXcUZgcGcsz6L2uRwXBMVG/7SOqtXr7Ag+oJJkDKxayOZH8+tYrbksZ8Pd
+aDQba2G32k2bHqr6C+4C3vC4HICJBCSWxs5ScQQiGRM7FXOFhnMXDzsTiQEPFxWLABJ7h5aGF3oB
+FRd+DRiCmwB2DReXp3GZexZ+EIEBDhcZEAGuqLeqsRY7EhmUDxgYehK3uIrAkZuztRmNFsWorMyh
+FsIBEwC7DhjQcRXcctKAvxjOAJG23dkS4HG716PMrMC+8MUWGW8XEaZyyfi0iKGjAyHWPXb68MwR
+9AiDomeUsHVKdyjYGwsI6UggFKcehGywMCwzFYnjoQsS+v/t6xdoQj44ywTWAjAxQ4YIwApheEZT
+oUae69rR0QNRVEk6DojNwbDxDVOeviq8RAmUpoNPGRoYjLDtXIB+cgJx9IUNQIYKE8AxlQonUgSr
+bx0Sm6V0ztlebyrgXQdWL1hKzyIF7ppHaLiMGFU2Tcg26wObEBpAVgqhKqKUCaHqBXf32QV4nwlZ
+yIn2ElWnE1xe9EkzNYY+piZIBgCB0IWyllq+TIwa88UJlOY+CEzs9S2/jKdu5Lxv+Ou4LitYtoSy
+MXKzGL/BiQx8+L4JJm/dVZz2zV1OzSAEizAhQkZ11XcvN28htexqwFWrg6kXH3YJjMBRjgQAVvbS
+fnGAgsc4bsBxIlIFaE2HIBy3gacWH3pBEOCElryWmoMXYCQhh5jwYcGJhpGo4oostujiizDGKOOM
+NNY4YwgAOw==
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/top_line.gif
+
+R0lGODdhBQAFAIQAAJiYppCRoIGDlYiKm3l8j3F1ilpgeWluhFJZc2Fnfis2VzM9XDpEYkBJZkJL
+aEpSbUtTbiMvUYWjwu+KCY1eK////////////////////////////////////////////ywAAAAA
+BQAFAAAFCeAkjmRZUigaAgA7
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/top_uofi_logo.gif
+
+R0lGODlhGwAsAPcAAFQ9VQAAPgAAOwAANAEBQAICQQsLRw4OShQUTxgYUR4eViEhWCQkWygoXSsr
+Xy4uYjExZTExZDQ0ZjU1Zj09bkFBcT8/bUdHdkVFc0tLd1FRfFRUfldXgFVVfV5eh15ehWFhiGpq
+j25uknp6m319noSEooqKqIuLppGRrZSUr5eXsZqatJubtJ2dtpiYsKGhuaSku7GxxbGxxLq6zJaW
+pL29zr29zcTE08rK19TU39fX4dTU3t3d5uDg6N7e5efn7eTk6uHh5+Tk6SYtaRcocBEmcwwkdSEt
+TwUGCCcwOoOhwHyZtkZWZyUuN/2UAO2IB4tcKf14Bfd2CP39/QAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGYA
+EQAAAAYACQAAAJQAlgAAthMA3XX2dY7P+nXCdfZ1tl4RAJZeEQDKRRUAAAAAAAAAAAA2+BAAdgAR
+AHYAEQB2ABEAdgARAAAAEQAFAAAAAEUVALZFFQAAAAAAAF4RAA7O+nWu9xAAfvgQAH74EADZfvl1
+hqz2df39/f2O+BAArovmdQAAEQAAAAAAAAAAAGta33UAAAAAAAAAAADe+31TAE0AfAAvALZFFQAA
+AAAAGgAAAFL4EAAKAAAArv0QAPsR6HXGi+Z1/f39/Yas9nXaS0EAtkUVAAAAEQDdAAAA7kUVAOZF
+FQBmABEAAGN4YCIAAACuY3hgAF+/AAAAAAAGRxUAAAARAHYAEQDmRRUA7kUVAB4AAAAAAAAAFgMi
+ABYDIgAy+RAA2X75dXas9nX9/f39QvkQAH1H53UAABEABgASABYAAABrWt91AAAAAAAAAAAAAAAA
+AAAAAMK+QgA2RhUAWsQTADpGFQDycUYA/f39/e5FFQAsv0IANkYVACwAAAAAGwAsAEAI/wCfCBxI
+sKBBgzQSKlzIsKHDI0+OHElwg8UUHFMyZhwxwUGEIQAiLpQYUaLEBDJMYARiIILLjyFNSlQCUaIC
+F1N06NgRRGPGliAjKhlKtKjRo0iJQlnKtKnTp09pHHEis6pViRCiHGFYUyZKlVNYvoQpUiHNkia/
+YpxCYGzQI0aNPHFysO5AuETt6q3rsK/fkVcDyySydSTaBBc+cOCwIYNjDRY8vuWKtsGBADNQ6Mg4
+wG1MylXVhm35crLZrmlTriTt8q1R1EcaCACBoURGEgQatI75Gi2DBMCDB1ewW2jS48iTK0e6t7nz
+5wT/Sp9Ovbr1h3OhZy+sEHYDBuDDg5L3SJZ7wq4LREyx8SOHEJ81EpQHHbvClBUYOnjIKOEAedPd
+oXWSajmxNp9hoREoVmmfdQfbRAoa+JZMZyUI1oLF4UXUg6LxICFvRXE4Qwo7ZFTAAwwatyFaCEAw
+RQ88+KARChTo5lqIJTEQQgww9PiCCkC2cAJxN25IlWBXQSCFhkNFYASSgRXB5HJUVmnllUcFBAA7
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/top_education.gif
+
+R0lGODdhYwAUAKUAAJiYppeXpYeImYyNnZCRoI+Qn4GDlYiKm5eZqHp9kHl8j3F1ilpgeWluhG1y
+h0RMaVFYclJZc2Fnfis2VzM9XDpEYkBJZkFKZ0JLaEpSbUtTbpWaqiMvUSQwUnJ6kSs4Wi07XTJA
+YoOMoDxNbkdZelFmhniKpV92lmqDo2yFpYqgu4yft4Wjwu+KCY1eK///////////////////////
+/////////////////////////////////////////////ywAAAAAYwAUAAAG/kCWcIUAGI/IpHLJ
+bDqf0OhRqNpIr9is9ioUbb/gsJRlCojP6DPLkzYq3oekIUM4EyRtJCrRbnD+HEkSHApfBxULAIMG
+eUYlA22DERKJRgYHg4VMB5qWjG4ceACfAAQKdUgHcVkjZmmZSBF/E4QLE3EMFUYMs3GyHAwUBrQc
+EbZxDbQTDQAHExh/EVkgkK+AGAB+xrQKsNAAC8XdBNq2HAu8GN2EzhUKFbcKHO4VHKtPCxoLHXzW
+FRh4ZNXJ5C2QwCMHeb0JpYiQn0ThGsjDAwuKBgsaQIhCUxFAQkIFPXJAJbKOwokNFTwEx0Eiw45O
+8i0Y8cDVmUH/MmQrZk5BlLhturSNK8cNZaYD897ZM0oISwkODtKEm1XnV4ZbIjlM+MRLa5wMf66q
+mgARazKtzJyVvRcFRYcLAhohuZSEACkjnFKxZWKKZBgWJDhAKCC3sGEALFKEEBz3sGM0Qk584HDB
+gc3HmLMIYXFiMYcHEvplHg1lc2ISHQCpXs26tevXsGPLnq3atBAUJUbQ3s27t2/YQQAAOw==
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/top_people.gif
+
+R0lGODdhQwAUAIQAAJiYppCRoIGDlYiKm3l8j3F1ilpgeWluhFJZc2Fnfis2VzM9XDpEYkBJZkJL
+aEpSbUtTbiMvUYWjwu+KCY1eK////////////////////////////////////////////ywAAAAA
+QwAUAAAF5yAgjmRpnmiqrmzrvnAsz3Rt3+ZAEMMdPAJcaxEpOgI1QiQhZEUYhMRSFCAgR9XrSNAD
+KJmAbNMUcYjKgIIioiiIDmvFIa1wFOdfOts9Hj2jSwN1BA4KA4JQDIZSiRE6gYOFXSsFEHxORWUB
+BxEICQgRB5xuBaFSpKFfnJ6gcywQDRAuf12rCbebEagHUgRpqUu2uC2VlytoIwN/BwtcfwyOjATQ
+jwnKUMxBfQAMBiVwRkjgcgBSa6EAgm7gmtspVZNhViK9PCfw7ja9+fxhYP0AAwoUkqmgwYMIEypc
+yLChw4cQI0YIAQA7
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/top_research.gif
+
+R0lGODdhTwAUAIQAAJiYppCRoIGDlYiKm3l8j3F1ilpgeWluhFJZc2Fnfis2VzM9XDpEYkBJZkJL
+aEpSbUtTbiMvUe+KCY1eK////////////////////////////////////////////////ywAAAAA
+TwAUAAAF/iAgjmRpnmiqrmzrvnAsz3Rt33heDgQx6K2DAXhaRI6MADHliCxLkUXiEUmIAgTlSPC7
+Zkk8VRjQBBCeoogjvS4oIooCIMA4Dt1wOeBwRCzkDA4LQwZHCgNNbwoCT1FTVQMKDgQOhwlVCQmR
+k5UDAxEMBHVWR5MFEQgECQFNmagtBRB6LEdwB3uoCQgRBwSOuAi6vHxyp6QMIrtaZE4Aai0QDRAu
+aru3fMGZSgJUDtiZq8QAxs5rAMojZeWwstRrTQefoQcLAgcPBQyHoAT0XPyj1gFTxarZsyUMhtBB
+sOeNmgAHHF5z6EDJJTVxACQcUQjOAAPINA5BYwJLFxFfJrycnMMoxRiSMGPKnEmzps2b1Grp3Mmz
+p8+fQIMKHUq0qNGjPUMAADs=
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/top_aboutus.gif
+
+R0lGODlhUQAUAIQAAJiYppCRoIGDlYiKm3l8j3F1ilpgeWluhFJZc2Fnfis2VzM9XDpEYkBJZkJL
+aEpSbUtTbiMvUYWjwu+KCY1eK////////////////////////////////////////////ywAAAAA
+UQAUAAAF/iAgjmRpnmiqrmzrvnAsz3Rt33j+BokwCo+ALjAg+XQsQ2QxSkQIsgGjUHoompEjMqVg
+ZEVOgqA4GkBThEii5IhgzwThllR4KhDgiCISOYiUSz4FCkUGDAJ7EXgjbW+IfFRzIghXlHkMBF4D
+dQiDDABhAG0BSg5nIo15BA9PCKcrBRCRLAERpkpUTlR1BwgRQkoDoY1paySpoE9OUy8QDRAuB3zT
+eLoAvL7AEcJPom7FJb5krEUFXsYssbMrbQnuDFfLmdvSnQpMnJ4A4EZ6CawPABhwFSGgJAYGRgza
+pIBVnz98FhzxpcfHAAXrRAziE0QgHwVaJKUYQ8JMiQAhJlUQICMiwCuRMGPKnEmzps2bOKbp3Mmz
+p8+fQIMKHUq0qNGjQkMAADs=
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/top_joinus.gif
+
+R0lGODdhRAAUAIQAAJiYppCRoIGDlYiKm3l8j3F1ilpgeWluhFJZc2Fnfis2VzM9XDpEYkBJZkJL
+aEpSbUtTbiMvUYWjwu+KCY1eK////////////////////////////////////////////ywAAAAA
+RAAUAAAF4iAgjmRpnmiqrmzrvnAsz3Rt32swoEHC6iQBrvVQoBIRoao4QiqHKUdkNCAESYNdSdqM
+WAECLZTEBRgikYWwoMgqpBHEdipCEgIMtGFMnhbibAwAdgQRDAR5YgBlg15ICZAtBRAFL1wIEQFm
+EQOEET52fV0EhQs+LRANEJZTmJpnnV6FoF4kmFoPnGC5DpKULIgJCgsAB4DDjaSfyUERCgm5D8UP
+BQxGYwMKaJWbaWtt2ZVsigBsaA+aB9oRB3wid1hfMgTk8O73+Pn6+/z9fGgAAwocSLCgwYMIEypc
+yLBhhBAAOw==
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/top_news.gif
+
+R0lGODdhdgAUAIQAAJiYppCRoIGDlYiKm3l8j3F1ilpgeWluhFJZc2Fnfis2VzM9XDpEYkJLaEpS
+bSMvUYWjwu+KCY1eK////////////////////////////////////////////////////ywAAAAA
+dgAUAAAF/iAgjmRpnmiqrmzrvnAsz3Rt33iu73zv2wJSkHdIEFACAmH4a4oSj4NI8EjsEA9G1DR4
+eB/HWYExcKqgiiChKgoQAi33ScEAPBymdSNhRTJHYQBQYXJmJFBZbmwFCg8KBQAIDQADj4J1B14K
+ZSQGWWB5bCIMVgSbAQ5eDnAGDI1pmV4HsZuGT1UPCGsJlQ0EDZueA1B4C3V0BQicbVpbfwBrmgEM
+C5EPAZ6zDwYADVVQyt7KyMq2gmDEVZkICVgHXQmuYFveDs9YpgpQkIAPCw14MglQgADAggV8DnZ7
+IOLBpEEL7Zk7dySVulx8EsChhmvBtSceAwFQMCkaAzj9lvoACEAH1MGMkLw1fAhKUEhzEAN45JWF
+wIEFQRBNu7PSAR9Rox4hOklizb8GZbBUs2YEAR6Zdmi+MQpFpRlGnAZCOtDIIRyd3BgdCeAtkZCy
+RpFSKguqEj+2mqS0GpX2VFumE1G4WaZiwDNAYWckeWE4sOPHkCNLnky5suXLLb5o3sy5s+fPoEOL
+Hk26tOnTqFOrXu05BAA7
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/images/pages/coursesb.jpg
+
+/9j/4AAQSkZJRgABAgEASABIAAD/7RWGUGhvdG9zaG9wIDMuMAA4QklNA+kKUHJpbnQgSW5mbwAA
+AAB4AAMAAABIAEgAAAAAAtgCKP/h/+IC+QJGA0cFKAP8AAIAAABIAEgAAAAAAtgCKAABAAAAZAAA
+AAEAAwMDAAAAAScPAAEAAQAAAAAAAAAAAAAAAGAIABkBkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAOEJJTQPtClJlc29sdXRpb24AAAAAEABIAFUAAQABAEgAVQABAAE4QklNBA0YRlgg
+R2xvYmFsIExpZ2h0aW5nIEFuZ2xlAAAAAAQAAAB4OEJJTQQZEkZYIEdsb2JhbCBBbHRpdHVkZQAA
+AAAEAAAAHjhCSU0D8wtQcmludCBGbGFncwAAAAkAAAAAAAAAAAEAOEJJTQQKDkNvcHlyaWdodCBG
+bGFnAAAAAAEAADhCSU0nEBRKYXBhbmVzZSBQcmludCBGbGFncwAAAAAKAAEAAAAAAAAAAjhCSU0D
+9RdDb2xvciBIYWxmdG9uZSBTZXR0aW5ncwAAAEgAL2ZmAAEAbGZmAAYAAAAAAAEAL2ZmAAEAoZma
+AAYAAAAAAAEAMgAAAAEAWgAAAAYAAAAAAAEANQAAAAEALQAAAAYAAAAAAAE4QklNA/gXQ29sb3Ig
+VHJhbnNmZXIgU2V0dGluZ3MAAABwAAD/////////////////////////////A+gAAAAA////////
+/////////////////////wPoAAAAAP////////////////////////////8D6AAAAAD/////////
+////////////////////A+gAADhCSU0EAAtMYXllciBTdGF0ZQAAAAIABjhCSU0EAgxMYXllciBH
+cm91cHMAAAAADgAAAAAAAAAAAAAAAAAAOEJJTQQIBkd1aWRlcwAAAAAQAAAAAQAAAkAAAAJAAAAA
+ADhCSU0EHg1VUkwgb3ZlcnJpZGVzAAAABAAAAAA4QklNBBoGU2xpY2VzAAAAAHEAAAAGAAAAAAAA
+AAAAAACbAAAAZQAAAAgAZgBhAGMAdQBsAHQAeQAxAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAAAA
+AAAAAAAAAABlAAAAmwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4QklNBBERSUND
+IFVudGFnZ2VkIEZsYWcAAAABAQA4QklNBBQXTGF5ZXIgSUQgR2VuZXJhdG9yIEJhc2UAAAAEAAAB
+PThCSU0EDBVOZXcgV2luZG93cyBUaHVtYm5haWwAABEVAAAAAQAAAEkAAABwAAAA3AAAYEAAABD5
+ABgAAf/Y/+AAEEpGSUYAAQIBAEgASAAA/+4ADkFkb2JlAGSAAAAAAf/bAIQADAgICAkIDAkJDBEL
+CgsRFQ8MDA8VGBMTFRMTGBEMDAwMDAwRDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAENCwsN
+Dg0QDg4QFA4ODhQUDg4ODhQRDAwMDAwREQwMDAwMDBEMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM
+DAwM/8AAEQgAcABJAwEiAAIRAQMRAf/dAAQABf/EAT8AAAEFAQEBAQEBAAAAAAAAAAMAAQIEBQYH
+CAkKCwEAAQUBAQEBAQEAAAAAAAAAAQACAwQFBgcICQoLEAABBAEDAgQCBQcGCAUDDDMBAAIRAwQh
+EjEFQVFhEyJxgTIGFJGhsUIjJBVSwWIzNHKC0UMHJZJT8OHxY3M1FqKygyZEk1RkRcKjdDYX0lXi
+ZfKzhMPTdePzRieUpIW0lcTU5PSltcXV5fVWZnaGlqa2xtbm9jdHV2d3h5ent8fX5/cRAAICAQIE
+BAMEBQYHBwYFNQEAAhEDITESBEFRYXEiEwUygZEUobFCI8FS0fAzJGLhcoKSQ1MVY3M08SUGFqKy
+gwcmNcLSRJNUoxdkRVU2dGXi8rOEw9N14/NGlKSFtJXE1OT0pbXF1eX1VmZ2hpamtsbW5vYnN0dX
+Z3eHl6e3x//aAAwDAQACEQMRAD8A2L30Y0DJurodBdtseGu2tG6x+z6eytvuesq760YrS77HQ7Iq
+Y7Y7KyLBi0l8bvToZtuyr7Gt+kz0vUZ/hKa1zLuldRqAs+zB5As3X4obYJB/Rucaf1je13+nr+0f
+6VNbuFWM0yAxuxreA0GnCssra3/B7r322W/8O+2y39IpfvUpmomP+Dqg8uI/MDfj6XrMH6y4WQ/Z
+e0Yuseq2z1qRoXfpZqxsvHZ+d6v2bIorZ/P2VVrZb/d3B5G4RE7tzfex7fp/TYvOWyagfCwFvkQ1
+0EOH0Hfuuauj+rPWm1MODnWsrpbJxsi1wY1h0c7Ftsd+irqs378Zz/TZ9o/Rf9qVLizm6mbHfsxz
+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
+aABvAHQAbwBzAGgAbwBwACAANgAuADAAAAABADhCSU0EBgxKUEVHIFF1YWxpdHkAAAAABwACAAAA
+AQEA/+4ADkFkb2JlAGSAAAAAAf/bAIQACAYGBgYGCAYGCAwIBwgMDgoICAoOEA0NDg0NEBEMDAwM
+DAwRDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAEJCAgJCgkLCQkLDgsNCw4RDg4ODhERDAwM
+DAwREQwMDAwMDBEMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM/8AAEQgAmwBlAwEiAAIRAQMR
+Af/dAAQAB//EAaIAAAAHAQEBAQEAAAAAAAAAAAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAA
+AQACAwQFBgcICQoLEAACAQMDAgQCBgcDBAIGAnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPB
+UtHhMxZi8CRygvElQzRTkqKyY3PCNUQnk6OzNhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE
+1OT0ZXWFlaW1xdXl9WZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZ
+qbnJ2en5KjpKWmp6ipqqusra6voRAAICAQIDBQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEy
+obHwFMHR4SNCFVJicvEzJDRDghaSUyWiY7LCB3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp
+0+PzhJSktMTU5PRldYWVpbXF1eX1RlZmdoaWprbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo
++DlJWWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq+v/aAAwDAQACEQMRAD8AkwTbGzTQWsZmupVhiHV3
+NB/bnPrrzrq1ytYJIoU5BSIgxIrv9tgoO38uF7X8up3PqXrNIqemDGp4g82VAqkf3aDn+z8WZstc
+P4YfP9TTHSn+KXyZ2fN2jBykTTTUNC0cTMB/HDKw1fTtRb07ScNN19BwY5PoR6Fv9jnKXvLhyU5l
+EUkLGnwIADTZVxVLqZIlYOWpJty+Loqnb9pf9ZGVsA1eQGyIkHoNvtScEehIewrjwMjXljzKNSAs
+r1v9LH91IxFX/wAlz8PJ/wCR+Px/Zk/efHNKONczsU4zjxR+I6guNOJiaK3bKPyx/HK47775Zuw2
+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
+B/Bz/wCPWtP8vj/TNlVYP50fk23k/mn5v//Z
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/images/pages/space5.gif
+
+R0lGODlhBQAFAPcAALy8vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPv7+yH5BAEAAP8ALAAAAAAFAAUA
+QAgLAP8JHEiwoEGCAQEAOw==
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/images/home/courses.gif
+
+R0lGODlhZQAZANUAAAI1Z1tviwU3aEJfgRE+bXuEmXN/lUZig2BzjQg4aRVBb15xjAo6ajZXfWd3
+kTJUew49bCZMdhxGchlDcG58k7y8xTQ0OKqqtXNzfY2QoCxQeDxbflFphztbf4OKnAEzZoaKmyRL
+dXqDmFVriQk5aiYmKTxbf2N0jzhYfQc4aWR1jxtFcSBIcxZCb0pjhFFpiGp6kk9oh7W1v3l5hMvL
+0lBnhtbW3ClOd1RUXE1NVMTEzCcnKq2tuG9veQAzZpaWpCH5BAAAAAAALAAAAABlABkAAAb/QJBM
+Rywaj8ikcslsOp9Imi3341mv2Kx2y+16v+CwtkKzYH7otHrNbrvf8Lh8zr5UzPS8fs/f2/F9gYKD
+dH9nhIiJiIaKjY56jHoeHBwGj5d+d4dzHhM+nz4smKNykXMCHwNoJx6krm6mcRo+J24FGhomGWgF
+HLs/GRwFP70ZAxq+BxoNImkeG8vNaCMaDwuXsXACBG4uPgQaAgKtGz4UaBQ+HT/lCRIrCCk+KyTj
+PwMAJBokACg/ER8ItEgQ4FG2Nz40tPEwDw3DEOzMoVMXEeKPdD52tUoHYVcGeSo+qQD2q9FBNwnb
+DPBxDQ0EABHPXaRYTmaGFh8myDQBoAUu8Q0MfLxAAYDBCEwn2wDgxqZmmhY+Yk5c5xRNhgMCfCjw
+cMOHz58Pzo0IKkCmSU10ZtVaE8NHjTQJEkidSVWimpsfHvA08QaFDxIG0XL6kApNAwYeMizd5W1d
+23U/QtC0+2PBuQMAwn46lwHGxmshATtK2sZA0E8fRP0wAOBDAh8Wf0BNICDCZJvyXgtoFiBrAgBC
+/30QALzgaMF5DFBiE0DYGhi+4jjg4GDNdAQlRXDAjg35q++ESIMfP0c8+fOwvKNfD8dOCRw94suf
+T7++/fv48+vfz78+CB4llLDDgAQWaOCBCCao4IIMNujggRbMEAQAOw==
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/images/home/cscrs0.gif
+
+R0lGODlhZQAZAMQAAJy0zb7O3tLd6cjW5EhYaXuWs9vk7fb4+rHF2C44QmZ9lJSuyv7//+ft86G5
+0a7C1vv8/f39/mJ4jyIqMp+3z7vL3f///4WjwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAABlABkAAAX/YPFUZGmeaKqubOu+6CAQF2XfeK7vfO//wKAOEUgoLsikcslsOp/QqHTK
+BCCM1Kx2y91asd2weEz9HsnoNNqsbru17LcjsHjbl3Ho48A/TA0WAXeDF3lPDoARBn+BhHeGUBZ+
+FwIGBnwDSZcHEI0Lmw0LiIsXAQYCjlmQT5JIBxaKDAx1DZINEY2dDbUQF7Whsg+pZVdnUq0Xr7SB
+C7BIgAEDFqS1DwudnajDU6tOyK/PgQHT4aYW5+iCDgzk29zFVN8W5eOk0IAGAfp0peeT7lG6NZFX
+rlkEV+Ik1fl0YR2DXwADwosyDl2yeReg+YLFrlEtBq8sXLOQKVvEJwKVUyzYJ+iBoIb8KFlyWefC
+A0sGHKx8OUfYySYpfwpNEnSo0KJGTyJNCnAp021WJhCQQLWq1atYs2rdyrWr169YC1CYQLas2bNo
+06pdy7at27dqjYQAADs=
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/images/home/prvcrs0.gif
+
+R0lGODlhZQAZAMQAAJy0zdLd6cnW5L7O3khYaXuWs9vk7fX4+rHF2C44QmZ9lJSuyq/C1v7//6G5
+0evw9fz8/eXr8mJ4jyIqMp+3z7vL3f///4WjwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAABlABkAAAX/YMFUZGmeaKqubOu+qBAQF2XfeK7vfO//wKAOMUgoLsikcslsOp/QqHTK
+BCCM1Kx2y91asd2weEz9HsnoNNqsbru17Ld8Xr2eo5GD/sEYHyJ0Y3FRBxYGEQ0NDmJ/gWKDUIVI
+AYYDBpYGFwsGehELDgYBSKCioUgCe30XAZkXlosMD3qtcpBPkhcChgYWFhAHFxAWDw++F4lIvJkW
+wLoQiIoXuLwDC4mcFnS2ToUDAQ0WoIan4xfFDBEWohANCxfMwRbuug/S2RfUA8NIqrV2U4V6QRCA
+z8KAZL0SGnTAjMG+d8DgIYE3zaA1XwcIztnWBFcSaggvDRjprlAhVfCMn2mieA/kggAPwC3yB4bQ
+vY8Gkeg74G4TOYkQ7fVRZm9RNweiLqQ7SPNOpJsImZqz0CBgEmFJgzIAJwyCO0oQhBnUV1Vl0ykM
+pI6qpoSBgbczL6RVMkAVqFDuJr1N684tXm3/HAluw3GwYS+BDyvmUnixYyeNH0tOYmUCAQmYM2ve
+zLmz58+gQ4sezbkAhQmoU6tezbq169ewY8ue7dpICAA7
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/images/home/nxtcrs0.gif
+
+R0lGODlhZQAZAMQAAP39/tLd6b7O3khYaXuWs/b4+rHF2Nvk7WZ9lC44Qpy0zaG50evw9ZSuyq7B
+1uXr8vv8/SEpMWJ4jyIqMp+3z7vL3f///4WjwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAABlABkAAAX/IOFUZGmeaKqubOu+qBAMF2XfeK7vfO//wKDOIEggLsikcslsOp/QqHTK
+VBiM1Kx2y91asd2weEz9HsnoNNqsbru17Ld8Xr2eo48CAxkoOLQBB3RqcVEFFhYCFweJWoeDaYVQ
+hxYFi40XfXp/BwcLFwudAgAWnZ+QYZJPh4yhjQ+VsBYLARYQF4cBtZV+qKl2U4cNFgyMAsOWmaUX
+DLbESI++YqpOj83NAgKI28sXEJVJ0dJd1E2PC9vZldnZn8OIDdAW479ghvPMiMeIpwGf34xu4bIQ
+j54XYFKioWu0i5KAZg8uwNrDiJQig2UQRnFw8QLHgqE6/ckWr0E2Pp0KP2KUUm6lyyUtX8qMKdMl
+zZoYb+KkZyXCAAlAgwodSrSo0aNIkypdSpQAhQgRJkidSrWq1atYs2rdyrWrVSMhAAA7
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/images/home/or5box.gif
+
+R0lGODlhWwAFAIAAAO+KCQAAACH5BAAAAAAALAAAAABbAAUAAAIThI+py+0Po5y02ouz3rz7D4ZY
+AQA7
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/images/home/facbut0.gif
+
+R0lGODlhZQAZAMQAAPb4+tvk7bHF2C03QWZ9lJy0zaG50b7O3q/C1v7//9Ld6f39/snW5JSuyvv8
+/evw9eXr8vH1+CEpMb/P34OhwHuWszhFUkhYaZ+2z2uEnWJ4jyIqMp+3z7vL3f///4WjwiH5BAAA
+AAAALAAAAABlABkAAAX/YIV0ZGmeaKqubOu+KKNcFGffeK7vfO//wKBOMBkQPsikcslsOp/QqHTK
+LAiM1Kx2y91asd2weEz9HsnoNNqsFh8QbTGb6qnbA2kPQAmPl69nUx4LAYUBB3l7SBEefn9ggopK
+BoYGk4YNHwiISG9IekgGDh4HiJ5IDQeWjh9zkUwLdqRICh4JowsfAI2fiqAfAbK6HqsQHgysrYBZ
+srMfDIjBDx8Gg5mbw0m/v9m0HngfCbnJrlKDlUkIhaDB4Em72r6S8EkLCc8eEMnKkOaS77ZG7QnG
+CWC8XgaTBFPAaBWrclG4eZv2gZ0HBUvoVZSXEJU4iY4gQgEZDNkBUNUckVxDxghRLV8JVu1y+OFB
+HYz7RD4BaSCBh1F1LNVKsCsXg4B1FO3iNZQQEgS2MuVcRuXUpUOUVqkLoEDqVgNWFbhjUKhPAw8U
+p/bbF8YABJ991AZiG+akA2R0ddLd20Uv37+P5gIe/EfCBQ2IEytezLix48eQI0uezLgCBgkSNmje
+zLmz58+gQ4seTbq0ZwsZQgAAOw==
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/images/home/progs.gif
+
+R0lGODlhZQAZANUAAAs6axNAboOKnCBJdEdig2d3kUZdektlhQU2aHN/lQI1ZzJUex5HchpFcTxV
+cgU3aCRLdRA9bQ48bG58k1FphyxQeLy8xaqqtXNzfTQ0OClOd1FpiI2QoHqDmFtvizFTelluiwEz
+ZmR1jwg4aRM/biVMdjRWfCYmKVVriRE+bV5xjNbW3ImJlgM1Z3uEmbW1v6yst8jIz2BzjRZCb87O
+1DhYfYuLmAk5apSUoldtisTEzCcnKq2tuG9veQAzZpaWpCH5BAAAAAAALAAAAABlABkAAAb/QNZL
+Rywaj8ikcslsOp9I2sqB41mv2Kx2y+16v+Cw1hLLYH7otHrNbrvf8Lh8zr5YzPS8fs/f2/F9gYKD
+dH9nhIiJiIaKjY56jI+Sk3V3h3IUPpohKRSUn3GRmD4VFDUAPgSgq5WAo55oCgA/FAkJFRVoBbgH
+HGm7pR8dPwIgHSgVBBwdJhULKmgcCR0eHwseAgTJwz8T2gTcfpZ0mbA/D7M+6Lg/HyEkJS0AAu3v
+A5oTPxvqEgMGEz7kaarRTROJez5kzdAkYp+PADfm8REVp9yPWz4IJkzjwYcGNB1NCPAx64cJHxv0
+aaKHhiVAHwJeivhBQJOvAA8WaIjgg4PP/z4U4WTS5CNErh+k0mjwMfMHB3UAGaDZl3LfxzQccnyo
+gO9lPodoNADQ0BEBhHxAx83JVMoc0qM/GPhAi9THOR8FBKAaZjVNhwc+ZpToik+l3R9iP06AoIkB
+S0hqX7FJiuakh5Ykf3RAoGkENJVXf6RAiYbwXMNhx3JUt2Bi5Io+3JaGC7CBL3cHfgQYAAIEBZZ9
+0Yxg+kOE6a+aUmvo4GLC0witxbmCLfutGhQJOX9Aw9jHCM6qgv/o6P0BiRANvKJGPNZhiwc3wuUJ
+moiD78c/nSZvU0yGrwIF0CFAASDQJd0ln3DwgAIDVDCcVKxANt0nBZQgAQAzVBdhKK9t6DahhAh+
+KKIcdpzgQA8opqjiiiy26OKLMMYo44ws2gDDCSfsoOOOPPbo449ABinkkEQW6aMZQQAAOw==
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/images/home/ugprg0.gif
+
+R0lGODlhZQAZAMQAAL7O3s7a50hYaXuWs7HF2Jy0zS44QmZ9lK/C1pSuyuXr8vv8/f39/v7//+vw
+9aG50dvk7fb4+mJ4jyIqMp+3z7vL3f///4WjwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAABlABkAAAX/4IBUZGmeaKqubOu+KBAIF2XfeK7vfO//wKCOADAcLsikcslsOp/QqHTK
+LBCM1Kx2y91asd2weEz9HsnoNNqsbru17LcSAZA/H4BENx6NKJIBEQhTERZ2ThAWdVx8UBYRSYmL
+fYaHTJJ7V2dRj5GKFxAQDhGCSAkKpAyVD6MREEgBEAAQARcIrbQXs7MQD6iktUgQpAufjJpTncKf
+Fo8KysUODg2GDw0NqBZ/hc7W2IWQiRYLEQANDhCqdc9+6plgnJDLdeNIxRcBFg5IhRfPiwwaXCg0
+6IIDC8E6JXqlZJYFCAksMJj3bpMjeaCYyeuHaaAhbs2aeUzSD4lCYwlA1T4E8JDiMXiOFiT5d0EZ
+R2P9CgUAwLNOSY96aoYzdhACnZUtM06Cg0xKsUEJVJncaCjfvqiGEv258KDWz4X4Ti4qpGdhxIke
+l2Zp9AQBtQjUElK1Ny7khQTFGBSD9BNvs7dKl+lt9upZwGZqyzSV8iCU0SQACtIxFSrAZFiV9VyG
+HLkTnqC6QtF5gNlonoqWuDRwpSpYaiVsX0f5FcG1bCSxb+tmCnO3b8W9fwt/YmWCAAnIkytfzry5
+8+fQo0ufznwAhQnYs2vfzr279+/gw4sf791ICAA7
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/images/home/grprg0.gif
+
+R0lGODlhZQAZAMQAAJy0zcnW5NLd6b7O3khYaXuWs/X3+rHF2C44QmZ9lKG50f39/q/C1v7//5Su
+yuft8/v8/dvk7WJ4jyIqMp+3z7vL3f///4WjwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAABlABkAAAX/YMFUZGmeaKqubOu+aCAQF2XfeK7vfO//wKDuMEAkLsikcslsOp/QqHTK
+BByM1Kx2y91asd2weEz9HsnoNNqsbru17PfTMVDI03Epw2DpGwRcAxYRWgoRA3dLeVCCDYcRCxaB
+g1qChIlJi0+RDEqEhgERERUPBqYBSQGmfIQClwMRdhGrlw8WBhGACqW4bppNDLdNghYLfw0PkBaI
+AcUREJR8SBHLF7ezlNDGDwoNyHwPbb9MltOihIIGS7DZFnbl0hfUiEgMzerlF7b0Cw3iV2cYWQh3
+wVQDSfkc8OlDSdgFeJLkVbPFEB+lggwZ/gMDxUExJdLy2YrAoJxDiNOWsAm4hUhYPj4BBsikhwfg
+FFsEL0B7eJGPA4mEoMmK5g4jO1TBLBKkRlABIDXjmCi00MDAwQU8L1FbAI1SswaRKK1cEFYm1YXq
+HByEYMCBNmjqoNqkwuBcpwt07CCBRbLOXlEl9brq+9NQ37uGUV0IleunXI6YIm8MKLkymaiWM5eZ
+q7kzHM6eQ0exMoGAhNOoU6tezbq169ewY8teXYDChNu4c+vezbu379/AgwvvbSQEADs=
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/images/home/intprg0.gif
+
+R0lGODlhZQAZAMQAAJy0zdLd6b7O3sjW5EhYaXuWs/b4+tvk7bHF2C44QmZ9lKG50f7//5Suyq7C
+1ufs8/39/iEpMWJ4jyIqMp+3z7vL3f///4WjwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAA
+AAAALAAAAABlABkAAAX/YOFUZGmeaKqubOu+6BAQF2XfeK7vfO//wKAOIUgoLsikcslsOp/QqHTK
+BCCM1Kx2y91asd2weEz9HsnoNNqsbru17Ld8Xr2eoQ6D3vAMHOYLBwJ0SXFQgRYQf04GFnMCFouE
+hlEWfBd+B3oDFwIQkQcLmHoPDheBAwehmZtJAaSmD5YHAZN2VJZIjYoMDA0BDJYGDrIGD70LkInD
+uwe9DRfFxwwLnxDGtmBSuReN0LKDjUgN3AGRkJfdFt8WAuSX5oKRhEiUUNziFwft6kjKFgDPzdPl
+SF+7fwHlSaJj7wm+gvvCFUQnoKKAZAP7GaxoyeJFSAvnNHTyEElEddAaiyBDEgCjpHwRVVJjifEB
+vQsjlyDUeHIfBAYCzFkKxvElRH5CDRBVuSzbnScNPF5wMOiUO5aqoAVSZSqqKCRUkSSDdkrVAVNl
+D3BieOum2zQ538ot03auXTh17+qNEnevX5wIIhCQQLiw4cOIEytezLix48eIC1CIEGGC5cuYM2ve
+zLmz58+gQ2s2EgIAOw==
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/images/pages/coursesl.jpg
+
+/9j/4AAQSkZJRgABAgEASABIAAD/7QdOUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA
+AQBIAAAAAQABOEJJTQQNAAAAAAAEAAAAeDhCSU0D8wAAAAAACAAAAAAAAAAAOEJJTQQKAAAAAAAB
+AAA4QklNJxAAAAAAAAoAAQAAAAAAAAACOEJJTQP1AAAAAABIAC9mZgABAGxmZgAGAAAAAAABAC9m
+ZgABAKGZmgAGAAAAAAABADIAAAABAFoAAAAGAAAAAAABADUAAAABAC0AAAAGAAAAAAABOEJJTQP4
+AAAAAABwAAD/////////////////////////////A+gAAAAA////////////////////////////
+/wPoAAAAAP////////////////////////////8D6AAAAAD/////////////////////////////
+A+gAADhCSU0ECAAAAAAAEAAAAAEAAAJAAAACQAAAAAA4QklNBBQAAAAAAAQAAAABOEJJTQQMAAAA
+AAW+AAAAAQAAAE0AAAAsAAAA6AAAJ+AAAAWiABgAAf/Y/+AAEEpGSUYAAQIBAEgASAAA/+4ADkFk
+b2JlAGSAAAAAAf/bAIQADAgICAkIDAkJDBELCgsRFQ8MDA8VGBMTFRMTGBEMDAwMDAwRDAwMDAwM
+DAwMDAwMDAwMDAwMDAwMDAwMDAwMDAENCwsNDg0QDg4QFA4ODhQUDg4ODhQRDAwMDAwREQwMDAwM
+DBEMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM/8AAEQgALABNAwEiAAIRAQMRAf/dAAQABf/E
+AT8AAAEFAQEBAQEBAAAAAAAAAAMAAQIEBQYHCAkKCwEAAQUBAQEBAQEAAAAAAAAAAQACAwQFBgcI
+CQoLEAABBAEDAgQCBQcGCAUDDDMBAAIRAwQhEjEFQVFhEyJxgTIGFJGhsUIjJBVSwWIzNHKC0UMH
+JZJT8OHxY3M1FqKygyZEk1RkRcKjdDYX0lXiZfKzhMPTdePzRieUpIW0lcTU5PSltcXV5fVWZnaG
+lqa2xtbm9jdHV2d3h5ent8fX5/cRAAICAQIEBAMEBQYHBwYFNQEAAhEDITESBEFRYXEiEwUygZEU
+obFCI8FS0fAzJGLhcoKSQ1MVY3M08SUGFqKygwcmNcLSRJNUoxdkRVU2dGXi8rOEw9N14/NGlKSF
+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
+AAAAAAAAAAAAAAAAAAAAAAAAZGVzYwAAAAAAAAAsUmVmZXJlbmNlIFZpZXdpbmcgQ29uZGl0aW9u
+IGluIElFQzYxOTY2LTIuMQAAAAAAAAAAAAAALFJlZmVyZW5jZSBWaWV3aW5nIENvbmRpdGlvbiBp
+biBJRUM2MTk2Ni0yLjEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHZpZXcAAAAAABOk/gAUXy4A
+EM8UAAPtzAAEEwsAA1yeAAAAAVhZWiAAAAAAAEwJVgBQAAAAVx/nbWVhcwAAAAAAAAABAAAAAAAA
+AAAAAAAAAAAAAAAAAo8AAAACc2lnIAAAAABDUlQgY3VydgAAAAAAAAQAAAAABQAKAA8AFAAZAB4A
+IwAoAC0AMgA3ADsAQABFAEoATwBUAFkAXgBjAGgAbQByAHcAfACBAIYAiwCQAJUAmgCfAKQAqQCu
+ALIAtwC8AMEAxgDLANAA1QDbAOAA5QDrAPAA9gD7AQEBBwENARMBGQEfASUBKwEyATgBPgFFAUwB
+UgFZAWABZwFuAXUBfAGDAYsBkgGaAaEBqQGxAbkBwQHJAdEB2QHhAekB8gH6AgMCDAIUAh0CJgIv
+AjgCQQJLAlQCXQJnAnECegKEAo4CmAKiAqwCtgLBAssC1QLgAusC9QMAAwsDFgMhAy0DOANDA08D
+WgNmA3IDfgOKA5YDogOuA7oDxwPTA+AD7AP5BAYEEwQgBC0EOwRIBFUEYwRxBH4EjASaBKgEtgTE
+BNME4QTwBP4FDQUcBSsFOgVJBVgFZwV3BYYFlgWmBbUFxQXVBeUF9gYGBhYGJwY3BkgGWQZqBnsG
+jAadBq8GwAbRBuMG9QcHBxkHKwc9B08HYQd0B4YHmQesB78H0gflB/gICwgfCDIIRghaCG4IggiW
+CKoIvgjSCOcI+wkQCSUJOglPCWQJeQmPCaQJugnPCeUJ+woRCicKPQpUCmoKgQqYCq4KxQrcCvML
+CwsiCzkLUQtpC4ALmAuwC8gL4Qv5DBIMKgxDDFwMdQyODKcMwAzZDPMNDQ0mDUANWg10DY4NqQ3D
+Dd4N+A4TDi4OSQ5kDn8Omw62DtIO7g8JDyUPQQ9eD3oPlg+zD88P7BAJECYQQxBhEH4QmxC5ENcQ
+9RETETERTxFtEYwRqhHJEegSBxImEkUSZBKEEqMSwxLjEwMTIxNDE2MTgxOkE8UT5RQGFCcUSRRq
+FIsUrRTOFPAVEhU0FVYVeBWbFb0V4BYDFiYWSRZsFo8WshbWFvoXHRdBF2UXiReuF9IX9xgbGEAY
+ZRiKGK8Y1Rj6GSAZRRlrGZEZtxndGgQaKhpRGncanhrFGuwbFBs7G2MbihuyG9ocAhwqHFIcexyj
+HMwc9R0eHUcdcB2ZHcMd7B4WHkAeah6UHr4e6R8THz4faR+UH78f6iAVIEEgbCCYIMQg8CEcIUgh
+dSGhIc4h+yInIlUigiKvIt0jCiM4I2YjlCPCI/AkHyRNJHwkqyTaJQklOCVoJZclxyX3JicmVyaH
+Jrcm6CcYJ0kneierJ9woDSg/KHEooijUKQYpOClrKZ0p0CoCKjUqaCqbKs8rAis2K2krnSvRLAUs
+OSxuLKIs1y0MLUEtdi2rLeEuFi5MLoIuty7uLyQvWi+RL8cv/jA1MGwwpDDbMRIxSjGCMbox8jIq
+MmMymzLUMw0zRjN/M7gz8TQrNGU0njTYNRM1TTWHNcI1/TY3NnI2rjbpNyQ3YDecN9c4FDhQOIw4
+yDkFOUI5fzm8Ofk6Njp0OrI67zstO2s7qjvoPCc8ZTykPOM9Ij1hPaE94D4gPmA+oD7gPyE/YT+i
+P+JAI0BkQKZA50EpQWpBrEHuQjBCckK1QvdDOkN9Q8BEA0RHRIpEzkUSRVVFmkXeRiJGZ0arRvBH
+NUd7R8BIBUhLSJFI10kdSWNJqUnwSjdKfUrESwxLU0uaS+JMKkxyTLpNAk1KTZNN3E4lTm5Ot08A
+T0lPk0/dUCdQcVC7UQZRUFGbUeZSMVJ8UsdTE1NfU6pT9lRCVI9U21UoVXVVwlYPVlxWqVb3V0RX
+klfgWC9YfVjLWRpZaVm4WgdaVlqmWvVbRVuVW+VcNVyGXNZdJ114XcleGl5sXr1fD19hX7NgBWBX
+YKpg/GFPYaJh9WJJYpxi8GNDY5dj62RAZJRk6WU9ZZJl52Y9ZpJm6Gc9Z5Nn6Wg/aJZo7GlDaZpp
+8WpIap9q92tPa6dr/2xXbK9tCG1gbbluEm5rbsRvHm94b9FwK3CGcOBxOnGVcfByS3KmcwFzXXO4
+dBR0cHTMdSh1hXXhdj52m3b4d1Z3s3gReG54zHkqeYl553pGeqV7BHtje8J8IXyBfOF9QX2hfgF+
+Yn7CfyN/hH/lgEeAqIEKgWuBzYIwgpKC9INXg7qEHYSAhOOFR4Wrhg6GcobXhzuHn4gEiGmIzokz
+iZmJ/opkisqLMIuWi/yMY4zKjTGNmI3/jmaOzo82j56QBpBukNaRP5GokhGSepLjk02TtpQglIqU
+9JVflcmWNJaflwqXdZfgmEyYuJkkmZCZ/JpomtWbQpuvnByciZz3nWSd0p5Anq6fHZ+Ln/qgaaDY
+oUehtqImopajBqN2o+akVqTHpTilqaYapoum/adup+CoUqjEqTepqaocqo+rAqt1q+msXKzQrUSt
+uK4trqGvFq+LsACwdbDqsWCx1rJLssKzOLOutCW0nLUTtYq2AbZ5tvC3aLfguFm40blKucK6O7q1
+uy67p7whvJu9Fb2Pvgq+hL7/v3q/9cBwwOzBZ8Hjwl/C28NYw9TEUcTOxUvFyMZGxsPHQce/yD3I
+vMk6ybnKOMq3yzbLtsw1zLXNNc21zjbOts83z7jQOdC60TzRvtI/0sHTRNPG1EnUy9VO1dHWVdbY
+11zX4Nhk2OjZbNnx2nba+9uA3AXcit0Q3ZbeHN6i3ynfr+A24L3hROHM4lPi2+Nj4+vkc+T85YTm
+DeaW5x/nqegy6LzpRunQ6lvq5etw6/vshu0R7ZzuKO6070DvzPBY8OXxcvH/8ozzGfOn9DT0wvVQ
+9d72bfb794r4Gfio+Tj5x/pX+uf7d/wH/Jj9Kf26/kv+3P9t////7gAOQWRvYmUAZEAAAAAB/9sA
+hAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAgICAgICAgICAgID
+AwMDAwMDAwMDAQEBAQEBAQEBAQECAgECAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+AwMDAwMDAwMDAwMDAwMDAwP/wAARCAAsAE0DAREAAhEBAxEB/90ABAAK/8QBogAAAAYCAwEAAAAA
+AAAAAAAABwgGBQQJAwoCAQALAQAABgMBAQEAAAAAAAAAAAAGBQQDBwIIAQkACgsQAAIBAwQBAwMC
+AwMDAgYJdQECAwQRBRIGIQcTIgAIMRRBMiMVCVFCFmEkMxdScYEYYpElQ6Gx8CY0cgoZwdE1J+FT
+NoLxkqJEVHNFRjdHYyhVVlcassLS4vJkg3SThGWjs8PT4yk4ZvN1Kjk6SElKWFlaZ2hpanZ3eHl6
+hYaHiImKlJWWl5iZmqSlpqeoqaq0tba3uLm6xMXGx8jJytTV1tfY2drk5ebn6Onq9PX29/j5+hEA
+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
+6Jf9h7EHbTy8T/V+XSHu8QcK0/1f6uH5df/Z
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/images/pages/space.gif
+
+R0lGODlhAQABAPcAAL6+vgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP39/SH5BAEAAP8ALAAAAAABAAEA
+QAgEAP8FBAA7
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/footer_logo.gif
+
+R0lGODlhIAAvAPcAAAAAAP////7+//39/vz8/fr7/fn6/Pb4+/X3+vH0+Orv9enu9Ojt88LR4cHQ
+4MDP38TS4c3Z5tLd6dHc6NTe6dbg69Xf6tjh6+Ho8OLp8ebs8+Xr8lB8qE97p1B8p1J+qVJ9qFN+
+qVV/qlWAqlR/qVaAqleBq1iCq1mCrFuErVyFrl2Frl2Grl6Gr2CHr2KJsWGIsGKJsGSLsmOKsWSL
+sWaNs2WMsmaMsmeNs2iOs2mOtGmPtGqPtGuQtWyRtW6St22Rtm2Stm+Tt3GUuHKVuHSXunOWuXSW
+uXaZu3WXuniavHmbvHiau3qcvXucvXqbvHydvX2dvn2evn6evoCgwH+fv4GgwIKhwYOiwYSjwoak
+w4WjwoakwoimxIelw4mmxIilw4uoxYqnxIypxo+rx46qxpKtyJSvypOuyZWvypawy5iyzJexy5my
+zJqzzZy1zpu0zZqzzJy0zZ21zqC40J+3z562zqO60aK50KW70qi+1Ke906a80qq/1am+1KzB1qvA
+1a3B1q7C17DE2K/D167C1rDD17LF2LTH2rPG2bfJ27bI2rnK3LzN3rvM3brL3L3N3r7O38DQ4L/P
+38PS4cLR4MTT4sjW5MfV48vY5crX5NDc6M/b587a5tTf6tPe6dji7Nfh69bg6tzl7tvk7drj7N/n
+797m7uTr8uPq8eju9Oft8+zx9uvw9erv9O/z9+7y9vP2+fL1+Pj6/Pf5+/z9/vv8/YGhwIqoxY6r
+x42qxpGtyJCsx5Wwyp63z6C4z6G50KS70aW80qm/1LLG2bHF2LXI2rTH2bnL3LjK273O3sbV48XU
+4snX5MjW483a5szZ5dHd6Nrk7dnj7N3m7tzl7eHp8ODo7+Xs8u7z9+3y9uzx9fH1+PD09/X4+vT3
++fn7/P7+/gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAIAAvAAAI/wADCBwo
+IJwoX4P2yOGjoJaAgRAjShRoy5ohJpJSHQiX4QqVTQgmihRoANskX1pGLRjkBdC1ABWCgLEwa2RE
+DY2U6KJQhswxTwgiMYFTLUAfFnMw2BS4qU4bB8A+oVEFjQuaTLGA+cDzjRoTG45syjrjwBM2SI6g
+lNEUztGQOBouKPmRCZyvDr5giXRUqtO1a5gCmNKFy0oFV2d2GIN1BwWbb5Y6MIkw8U6AU48MVCI1
+gM8GPzt2xXIGQ4kpaCaESLsmA4UiiX0MqAoWAFKzANAiDKAmRUYzVlFUNELVA0UiVlg8rPEG0VMm
+b8ZkKVCkgIAYWgG65fGghpWcDma6kf/xoEsDrw5KUA20BSxApkAB/mQKoO2XQAKSOgDBkCjEjQ1x
+dDCEKYZ0cMMnAg2wxwHYAAJLOH5oEMAwCApUTQ0dNIOICR5sokgHMGgySAckdCIQLHgEMMEitTDj
+SE24cDNQNlV0IEwnM3RAyDEmoHAMHik4UksAsxCjADiOUBAAHhII1EUCA32DRgdbQMBDB2g40AIK
+lETEAB3eSFMMc21IaEodIQ30SwdCNPNEB1VM02VEtjDzSACVLGLAAnDEEkAzg0QUDAgkCHIFICMl
+EEgpAQBC2TJ9EACOIbpB9EgKWwywFAZ9KCDLHasE8MAeRBpzQUTQYLdUAM8YMksGv3T/E8AkiAQQ
+iwKrioTkIuGksoUtApyaq020ADKBYJ4Mmyste1QjQAF0+vKFqsom+FBE2ZjCRQfXVSvSABssMUIn
+XXSQhy3eRlSLJFgogkIM01jRwSDhpCsQAo1smwUgKCSRiREdOGNvAMp0wMeUY/QBQhfUEPGBKfZq
+soMIgZR7ByAd1OGKCzrgmq4FO7BwiBQdjNrBIqWU8MWQ6U7wAg7LVJGCJm50EM0zHRii7DcQOeBB
+EBTkIEMqU6iwzSAcaDKsA0pT1EgHWUiwQhOv6OCEAWj4sMBSFgRAiyKIUlRMB4Fg0gEwGpyQBzhG
+qLFUJ2SEU4szegxUSxscbNJAB5lE/4MCKNPk0DREAgiwiNLXwCFjBGkYcO0YK7TSxgoJ7AFEOIBU
+0QpEBUjQNSFCsiIGKwGMgkYqBAQQThJFBMDELbZk8UYAUSRT70Cn4JEsH5D46UUoBLxSBwR+bpCC
+H97M4AgDTYwiDS6uRMRNH5cEcIgh6gkTiayDYB9ABB2gwskN3hhSRgC4VAiRN8cYU/oenASwjCCn
+PiMIMwHsYYQAvcSBwBmkOEUhRPIIQiSAAMOIxAAy0IdHHKAAx5jEMo7QiARQQRXGSEQAwiISZ8gn
+AMgwBAYEAIE/KM0UjggDDQLAjGFwQxPemJNIrOEIQQQAFYwwRjgY0IA9QMwUcuhCGnCUUIpB9KJJ
+NvEGJ/5AClt0Qg6U2YAk2nAJU1CBAZgwgyBGAY5VCUAVh8ADLWLhCDtMoBbcOIUempAIO+RBL8oC
+xyl28QdaEAATatADKBIwiV4Mo4v2+sQZ+rA5BHAiF0iA48AEIgti+MIPgEDGRAICADs=
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cs.uiuc.edu/includes/img/top_gray_bg.gif
+
+R0lGODlhGQAsAKIAAJiYpiMvUYWjwu+KCY1eKwAAAAAAAAAAACwAAAAAGQAsAAADSDi63P4wyklr
+JDjrzTX4YCiOZGmeaKqubOu+cCzPdG3feK6zQe//wKBwSAQKjsikcslsOp/QqHRKrVqv2Kx2y+16
+v+CwePxMAAA7
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cs.uiuc.edu/js/cs.css
+
+.List {
+	FONT-WEIGHT: 500; FONT-SIZE: 12px; TEXT-TRANSFORM: none; COLOR: =
+#ffffff; LINE-HEIGHT: 14px; FONT-FAMILY: trebuchet,  helvetica, sans =
+serif; TEXT-DECORATION: none
+}
+.List A:link {
+	FONT-WEIGHT: 500; FONT-SIZE: 12px; TEXT-TRANSFORM: none; COLOR: =
+#ffffff; LINE-HEIGHT: 14px; FONT-FAMILY: trebuchet,  helvetica, sans =
+serif; TEXT-DECORATION: none
+}
+.List A:active {
+	FONT-WEIGHT: 500; FONT-SIZE: 12px; TEXT-TRANSFORM: none; COLOR: =
+#ffffff; LINE-HEIGHT: 14px; FONT-FAMILY: trebuchet,  helvetica, sans =
+serif; TEXT-DECORATION: none
+}
+.List A:visited {
+	FONT-WEIGHT: 500; FONT-SIZE: 12px; TEXT-TRANSFORM: none; COLOR: =
+#ffffff; LINE-HEIGHT: 14px; FONT-FAMILY: trebuchet,  helvetica, sans =
+serif; TEXT-DECORATION: none
+}
+.quote {
+	FONT-WEIGHT: 500; FONT-SIZE: 10px; TEXT-TRANSFORM: none; COLOR: =
+#4f7ba7; LINE-HEIGHT: 14px; FONT-FAMILY: trebuchet,  helvetica, =
+sans-serif; TEXT-ALIGN: right
+}
+.quote I {
+	FONT-WEIGHT: 500; FONT-SIZE: 10px; COLOR: #999999; LINE-HEIGHT: 14px; =
+FONT-STYLE: italic; FONT-FAMILY: trebuchet,  helvetica, sans-serif; =
+TEXT-ALIGN: right
+}
+H1 {
+	FONT-WEIGHT: 900; FONT-SIZE: 24px; LINE-HEIGHT: 30px; FONT-FAMILY: =
+verdana, arial, helvetica, sans-serif
+}
+.heading {
+	FONT-WEIGHT: 900; FONT-SIZE: 24px; LINE-HEIGHT: 30px; FONT-FAMILY: =
+verdana, arial, helvetica, sans-serif
+}
+P {
+	FONT-SIZE: 12px; COLOR: #202b43; LINE-HEIGHT: 14px; FONT-FAMILY: =
+trebuchet,  helvetica, sans-serif
+}
+P A:link {
+	FONT-SIZE: 12px; COLOR: #006699; TEXT-DECORATION: underline; fontwight: =
+500
+}
+P A:active {
+	FONT-SIZE: 12px; COLOR: #006699; TEXT-DECORATION: underline; fontwight: =
+500
+}
+P A:active {
+	FONT-SIZE: 12px; COLOR: #993366; TEXT-DECORATION: underline; fontwight: =
+500
+}
+P A:visited {
+	FONT-SIZE: 12px; COLOR: #3399cc; TEXT-DECORATION: underline; fontwight: =
+500
+}
+B {
+	FONT-WEIGHT: 600; FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-FAMILY: =
+trebuchet,  helvetica, sans-serif
+}
+UL {
+=09
+}
+LI {
+=09
+}
+UL LI {
+=09
+}
+OL {
+=09
+}
+OL LI {
+=09
+}
+LI A:link {
+	FONT-WEIGHT: 500; FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-FAMILY: =
+trebuchet,  helvetica, sans-serif; TEXT-DECORATION: underline
+}
+LI A:active {
+	FONT-WEIGHT: 500; FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-FAMILY: =
+trebuchet,  helvetica, sans-serif; TEXT-DECORATION: underline
+}
+LI A:visited {
+	FONT-WEIGHT: 500; FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-FAMILY: =
+trebuchet,  helvetica, sans-serif; TEXT-DECORATION: underline
+}
+LI.bullet {
+	LIST-STYLE-POSITION: outside; LIST-STYLE-TYPE: disc
+}
+.links A:link {
+	FONT-WEIGHT: 500; FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-FAMILY: =
+trebuchet,  helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.links A:active {
+	FONT-WEIGHT: 500; FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-FAMILY: =
+trebuchet,  helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.links A:visited {
+	FONT-WEIGHT: 500; FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-FAMILY: =
+trebuchet,  helvetica, sans-serif
+}
+.links {
+	FONT-WEIGHT: 500; FONT-SIZE: 12px; LINE-HEIGHT: 14px; FONT-FAMILY: =
+trebuchet,  helvetica, sans-serif
+}
+.table {
+	FONT-SIZE: 12px; TEXT-TRANSFORM: none; COLOR: #1c4563; FONT-FAMILY: =
+trebuchet,  helvetica, sans-serif; TEXT-DECORATION: none
+}
+.table CODE {
+	FONT-SIZE: 12px; TEXT-TRANSFORM: none; COLOR: #993366; LINE-HEIGHT: =
+14px; FONT-FAMILY: trebuchet,  helvetica, sans-serif; TEXT-DECORATION: =
+none
+}
+.table STRONG {
+	FONT-WEIGHT: 600; TEXT-TRANSFORM: none; LINE-HEIGHT: 14px; FONT-FAMILY: =
+trebuchet,  helvetica, sans-serif; TEXT-DECORATION: none
+}
+.table A:link {
+	FONT-SIZE: 12px; TEXT-TRANSFORM: none; COLOR: #006699; LINE-HEIGHT: =
+14px; FONT-FAMILY: trebuchet,  helvetica, sans-serif; TEXT-DECORATION: =
+underline
+}
+.table A:active {
+	FONT-SIZE: 12px; TEXT-TRANSFORM: none; COLOR: #993366; LINE-HEIGHT: =
+14px; FONT-FAMILY: trebuchet,  helvetica, sans-serif; TEXT-DECORATION: =
+underline
+}
+.table A:visited {
+	FONT-SIZE: 12px; TEXT-TRANSFORM: none; COLOR: #3399cc; LINE-HEIGHT: =
+14px; FONT-FAMILY: trebuchet,  helvetica, sans-serif; TEXT-DECORATION: =
+underline
+}
+.table B {
+	FONT-SIZE: 12px; TEXT-TRANSFORM: none; COLOR: #1c4563; LINE-HEIGHT: =
+14px; FONT-FAMILY: trebuchet,  helvetica, sans-serif
+}
+.footer A:link {
+	FONT-SIZE: 10px; COLOR: #72737e; LINE-HEIGHT: 16px; FONT-FAMILY: =
+trebuchet,  helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.footer A:active {
+	FONT-SIZE: 10px; COLOR: #72737e; LINE-HEIGHT: 16px; FONT-FAMILY: =
+trebuchet,  helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.footer A:visited {
+	FONT-SIZE: 10px; COLOR: #72737e; LINE-HEIGHT: 16px; FONT-FAMILY: =
+trebuchet,  helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.footer {
+	FONT-SIZE: 10px; TEXT-TRANSFORM: none; COLOR: #4f7ba7; LINE-HEIGHT: =
+16px; FONT-FAMILY: trebuchet,  helvetica, sans-serif
+}
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cs.uiuc.edu/js/array.js
+
+var MenuBgColor =3D '#4F7BA7';   =0A=
+var MenuBgColorHL =3D '#232F51';=0A=
+var incrementDivHeight =3D21;      //this is the height is each menu =
+entry increment=0A=
+var timeUntilHide=3D .001;    //enter time in seconds=0A=
+	=0A=
+var Menus=3D new Array();=0A=
+=0A=
+//filled in as *** new Array('TopLevel Menu Name', distance from left, =
+distance from top, width, height, '#Background color '); ***=0A=
+=0A=
+Menus[0] =3D new Array('Education', 123, 68, 140, 21, '#232F51');
+=0A=
+Menus[1] =3D new Array('People', 212, 68, 140, 21, '#232F51');
+=0A=
+Menus[2] =3D new Array('Research', 279, 68, 140, 21, '#232F51');
+=0A=
+Menus[3] =3D new Array('AboutUs', 358, 68, 140, 21, '#232F51');
+=0A=
+Menus[4] =3D new Array('JoinUs', 439, 68, 140, 21, '#232F51');
+=0A=
+Menus[5] =3D new Array('News', 478, 68, 140, 21, '#232F51');=0A=
+=0A=
+=0A=
+var MenuEntries=3D new Array();=0A=
+MenuEntries[0] =3D new Array('Education', 'Courses', =
+'education/courses/index.html');
+=0A=
+MenuEntries[1] =3D new Array('Education', 'Undergrad Programs', =
+'education/undergrad/index.html');
+=0A=
+MenuEntries[2] =3D new Array('Education', 'Graduate Programs', =
+'education/grad/index.html')
+=0A=
+MenuEntries[3] =3D new Array('Education', 'Internet Programs', =
+'education/i2cs/index.html')
+=0A=
+MenuEntries[4] =3D new Array('Education', 'Student Services', =
+'education/services/index.html')
+=0A=
+MenuEntries[5] =3D new Array('People', 'Faculty', =
+'people/faculty/index.html')
+=0A=
+MenuEntries[6] =3D new Array('People', 'Staff', =
+'people/staff/index.html')
+=0A=
+MenuEntries[7] =3D new Array('People', 'Offices', =
+'people/staff/department.html')
+=0A=
+MenuEntries[8] =3D new Array('Research', 'Research', =
+'research/research.html')
+=0A=
+MenuEntries[9] =3D new Array('Research', 'Research Areas', =
+'research/areas.html')
+=0A=
+MenuEntries[10] =3D new Array('Research', 'PhD Thesis Research', =
+'research/phd.html')
+=0A=
+MenuEntries[11] =3D new Array('Research', 'Research Reports', =
+'research/reports.html')
+=0A=
+MenuEntries[12] =3D new Array('AboutUs', 'Overview', =
+'about/overview.html')
+=0A=
+MenuEntries[13] =3D new Array('AboutUs', 'Facilities', 'about/dcl.html')
+=0A=
+MenuEntries[14] =3D new Array('AboutUs', 'History', =
+'about/history.html')
+=0A=
+MenuEntries[15] =3D new Array('AboutUs', 'Organizations', =
+'education/services/studentorgs.html')
+=0A=
+MenuEntries[16] =3D new Array('AboutUs', 'Industry Relations', =
+'people/alumni/indrel.html')
+=0A=
+MenuEntries[17] =3D new Array('JoinUs', 'Undergrad Admisson', =
+'join/undergrad.html')
+=0A=
+MenuEntries[18] =3D new Array('JoinUs', 'Graduate Admisson', =
+'join/grad.html')
+=0A=
+MenuEntries[19] =3D new Array('JoinUs', 'Internet Programs', =
+'join/i2cs.html')
+=0A=
+MenuEntries[20] =3D new Array('JoinUs', 'Positions Available', =
+'join/positions.html')
+=0A=
+MenuEntries[21] =3D new Array('JoinUs', 'Life in C-U', 'join/life.html')
+=0A=
+MenuEntries[22] =3D new Array('JoinUs', 'Contact Us', =
+'people/staff/department.html')
+=0A=
+MenuEntries[23] =3D new Array('News', 'Calendar', =
+'news/calendar/calendar503.html')
+=0A=
+MenuEntries[24] =3D new Array('News', 'Lecture Series', =
+'dls/index.html')
+=0A=
+MenuEntries[25] =3D new Array('News', 'Siebel Center', =
+'news/siebel/index.html')
+=0A=
+MenuEntries[26] =3D new Array('News', 'Alumni Newsletter', =
+'news/alumni/index.html')
+=0A=
+MenuEntries[27] =3D new Array('News', 'Archive', =
+'news/archives/index.html')
+=0A=
+MenuEntries[28] =3D new Array('JoinUs', 'Alumni Association', =
+'people/alumni/index.html')
+=0A=
+MenuEntries[29] =3D new Array('People', 'Graduate Students', =
+'people/students/grada.html')
+=0A=
+MenuEntries[30] =3D new Array('People', 'Student Groups', =
+'education/services/studentorgs.html')
+=0A=
+MenuEntries[31] =3D new Array('People', 'Awards', =
+'people/awards/index.html')
+=0A=
+MenuEntries[32] =3D new Array('People', 'Alumni Association', =
+'people/alumni/index.html')
+=0A=
+
+
+------=_NextPart_000_0000_01C3170C.CB50C360
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cs.uiuc.edu/js/layerovers.js
+
+//Stop most js errors from being unnecessarily visible to the user.=0A=
+function stopError() {=0A=
+return true;=0A=
+}=0A=
+//window.onerror =3D stopError=0A=
+=0A=
+//This is the browser sniffer.=0A=
+// Is: constructor=0A=
+// parameters: none=0A=
+// Distinguishes among Netscape 4.x, Netscape 6.x, and Internet Explorer =
+browsers versions 4.x and higher.=0A=
+// Sets attribute ns4 to true if the browser is Netscape 4.x=0A=
+// Sets attribute ns6 to true if the browser is Netscape 6.x or higher=0A=
+// Sets attribute ie4 to true if the browser is Internet Explorer 4.x or =
+higher=0A=
+function Is() {=0A=
+    agent  =3D navigator.userAgent.toLowerCase(); =0A=
+    this.major =3D parseInt(navigator.appVersion);=0A=
+    this.minor =3D parseFloat(navigator.appVersion);=0A=
+    this.ns    =3D ((agent.indexOf('mozilla')   !=3D   -1) &&=0A=
+                 ((agent.indexOf('spoofer')   =3D=3D   -1) &&=0A=
+                 (agent.indexOf('compatible') =3D=3D   -1)));=0A=
+    this.ns4   =3D (this.ns && (this.major      =3D=3D    4));=0A=
+    this.ns6   =3D (this.ns && (this.major     >=3D    5));=0A=
+    this.ie    =3D (agent.indexOf("msie")       !=3D   -1);=0A=
+    this.ie4   =3D (this.ie && (this.major      >=3D    4));=0A=
+}=0A=
+=0A=
+//create variable "is" as an Is object=0A=
+var is =3D new Is();=0A=
+=0A=
+// getLayerObj=0A=
+// parameters: id, a string which is the value of the id of a layer in =
+the document=0A=
+// objectifies the layer in the document with ID=3D=3Did based on the =
+implimentation of the particular browser type=0A=
+// returns that object=0A=
+function getLayerObj(id)=0A=
+{=0A=
+	if(is.ns4)=0A=
+		return eval("document" + '[id]');=0A=
+	else if(is.ie4)=0A=
+		return eval("document.all" + '[id]' + ".style");=0A=
+	else if(is.ns6)=0A=
+		return document.getElementById(id).style;=0A=
+}=0A=
+=0A=
+// writeDivs=0A=
+// creates a string, divStr, to be written into the document, and then =
+calls writeInDocument=0A=
+//	 divStr begins with an empty layer, a work-around for a Netscape 4.x =
+bug, and continues to write div tags for dynamic menus.=0A=
+//     for each menu, the unhighlighted and highlighted background =
+colors, the id's of the layers, the content of the layers, the links=0A=
+//	   of each anchor, as well as the height, width, position from the =
+left and top edges of the browser window (in pixels) are=0A=
+//     specified in the file "array.js"=0A=
+//  If one wishes to change the look or positioning of the dynamic menus =
+created here, one should edit the values in array.js, or=0A=
+//  overwrite them with another script.  This script is designed to use =
+those values, and was not intended to be changed as long as=0A=
+//  this type of dynamic menus is used.=0A=
+// returns nothing=0A=
+function writeDivs()=0A=
+{=0A=
+	var i =3D 0; =0A=
+	var j =3D 0;=0A=
+	var left =3D 0;=0A=
+	var top =3D 0;=0A=
+	var width =3D 0; =0A=
+	var height =3D 0;=0A=
+	var divStr =3D '<div id=3D"nullDiv" style=3D"position: absolute; =
+visibility: hidden;"></div>';=0A=
+	for(i=3D0; i<Menus.length; i++)=0A=
+	{=0A=
+		left =3D Menus[i][1];=0A=
+		top =3D Menus[i][2];=0A=
+		width =3D Menus[i][3];=0A=
+		var subStr =3D Menus[i][0].toLowerCase() + "HolderLayer";=0A=
+		height=3D0;=0A=
+		for(j=3D0; j<MenuEntries.length; j++)=0A=
+		{=0A=
+			if(Menus[i][0].toLowerCase() =3D=3D MenuEntries[j][0].toLowerCase())=0A=
+			{=0A=
+				height +=3D (Menus[i][4] + 1);=0A=
+			}=0A=
+		}=0A=
+		height +=3D 6;=0A=
+		divStr +=3D '<div id=3D' + subStr + ' style=3D"position: absolute; =
+background-color: ' + MenuBgColorHL + '; left: ' + left + 'px; top: ' + =
+top + 'px; width: ' + width + 'px; height: ' + height + 'px; z-index: =
+100; visibility: hidden; cursor: pointer;"';=0A=
+		divStr +=3D 'onmouseover=3D"hideAll(\'' + Menus[i][0] + '\')" =
+onmouseout=3D"mouseOff(\'' + subStr + '\', ' + i + ')">';=0A=
+		divStr +=3D '<layer bgColor=3D"' + MenuBgColorHL + '" width=3D"' + =
+width + '" height=3D"' + (height-85) + '"';=0A=
+		divStr +=3D 'onmouseover=3D"hideAll(\'' + Menus[i][0] + '\')" =
+onmouseout=3D"mouseOff(\'' + subStr + '\', ' + i + ')">';=0A=
+		height =3D Menus[i][4];=0A=
+		top =3D 1;=0A=
+			=0A=
+		for(j=3D0; j<MenuEntries.length; j++)=0A=
+		{=0A=
+			if(Menus[i][0] =3D=3D MenuEntries[j][0])=0A=
+			{=0A=
+				var subStr =3D Menus[i][0].toLowerCase() + "Entry" + (j);=0A=
+				var entryText =3D MenuEntries[j][1];=0A=
+				var entryLink =3D '/' + MenuEntries[j][2];=0A=
+				divStr +=3D '<div id=3D"' + subStr + 'Layer" style=3D"position: =
+absolute; left: 1px; top: ' + top + 'px; width: ' + (width-2) + 'px; =
+height: ' + height + 'px; z-index: inherit; visibility: inherit;">';=0A=
+				divStr +=3D '<table border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0"><tr><td bgcolor=3D"' + MenuBgColor + '" width=3D"' + =
+(width-2) + '" height=3D"' + height + '" =
+onmouseover=3D"bgColor=3DMenuBgColorHL" =
+onmouseout=3D"bgColor=3DMenuBgColor" onclick=3D"location=3D\'' + =
+entryLink + '\'" valign=3D"middle">';=0A=
+				divStr +=3D '<layer width=3D"' + (width-2) + '" height=3D"' + height =
++ '" bgColor=3D"' + MenuBgColor + '" =
+onmouseover=3D"bgColor=3DMenuBgColorHL" =
+onmouseout=3D"bgColor=3DMenuBgColor">';=0A=
+				divStr +=3D '<font class=3D"List">&nbsp;<a href=3D"' + entryLink + =
+'">' + entryText + '</a></font>';=0A=
+				divStr +=3D '</layer></td></tr></table>';=0A=
+				divStr +=3D '</div>';=0A=
+				top +=3D height+1;=0A=
+			}=0A=
+		}=0A=
+		divStr +=3D '<div id=3D"' + Menus[i][0].toLowerCase() + =
+'EntryBottomLayer" style=3D"position: absolute; left: 0px; top: ' + top =
++ 'px; width: 5px; height: 5px; visibility: inherit; z-index: 10;">';=0A=
+		divStr +=3D '<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"' + width + '" height=3D"5"><tr>';=0A=
+		divStr +=3D '<td width=3D"' + width + '" height=3D"5" =
+rowspan=3D"2"><img src=3D"/includes/img/menu_corner_left.gif" =
+width=3D"5" height=3D"5" border=3D"0"></td>';=0A=
+		divStr +=3D '<td bgcolor=3D"' + MenuBgColor + '" width=3D"' + =
+(width-10) + '" height=3D"4"><img src=3D"/includes/img/space.gif" =
+width=3D"' + (width-10) + '" height=3D"5" border=3D"0"></td>';=0A=
+		divStr +=3D '<td width=3D"5" height=3D"5" rowspan=3D"2"><img =
+src=3D"/includes/img/menu_corner_right.gif" width=3D"5" height=3D"5" =
+border=3D"0"></td></tr><tr>';=0A=
+		divStr +=3D '<td bgcolor=3D"' + MenuBgColorHL + '" width=3D"' + =
+(width-10) + '" height=3D"1"><img src=3D"/includes/img/space.gif" =
+width=3D"' + (width-10) + '" height=3D"1" =
+border=3D"0"></td></tr></table></div>';=0A=
+		divStr +=3D '</layer></div>';=0A=
+	}=0A=
+	writeInDocument(divStr);=0A=
+}=0A=
+=0A=
+// writeInDocument=0A=
+// parameters: string, a string to be written into the document=0A=
+// uses document.write() to write the parameter string into the document=0A=
+function writeInDocument(string)=0A=
+{=0A=
+=0A=
+	document.write(string);=0A=
+}=0A=
+=0A=
+// create an Array based on the number of dynamic menus specified by the =
+array Menus defined in array.js=0A=
+var menuTimerArray =3D new Array(Menus.length);=0A=
+=0A=
+// mouseOff=0A=
+// parameters: id, a string which is the value of the id of a layer in =
+the document=0A=
+//			   num, an integer referring to a particular cell of menuTimerArray=0A=
+// retrieves the object for a layer in the document with ID=3Did and =
+sets a variable lyr equal to it=0A=
+// checks to see if the browser is NOT Netscape 6.x=0A=
+//		(This is done because of a bug in Netscape 6.x which incorrectly =
+interprets the event of the mouse moving off of a layer which=0A=
+//		has layers nested inside.)=0A=
+// If the browser is NOT Netscape 6.x, it stores a setTimeout object in =
+the in cell "num" of menuTimerArray.  This will execute a command=0A=
+// which hides the menu layer that the mouse moved off of.  The delay =
+until this command is executed is 1000 times the value of=0A=
+// "timeUntilHide" which is specified in array.js.=0A=
+// More simply, when the mouse is moved off of the currently visible =
+menu, the menu will hide after a specified delay.=0A=
+// returns nothing=0A=
+function mouseOff(id, num)=0A=
+{=0A=
+	lyr =3D getLayerObj(id);=0A=
+	if(!is.ns6)=0A=
+		menuTimerArray[num] =3D eval('setTimeout("img_inact(\'top_' + =
+Menus[num][0].toLowerCase() + '\');lyr.visibility=3D\'hidden\';", =
+(1000)*timeUntilHide)');=0A=
+}=0A=
+=0A=
+function hideAll(selection)=0A=
+{=0A=
+	for(i=3D0; i<Menus.length; i++)=0A=
+	{=0A=
+		clearTimeout(menuTimerArray[i]);=0A=
+		clearTimeout(menuTimerArray[i]);=0A=
+		clearTimeout(menuTimerArray[i]);=0A=
+		lyrStr =3D Menus[i][0].toLowerCase() + 'HolderLayer';=0A=
+		lyr =3D getLayerObj(lyrStr);=0A=
+		if(selection.toLowerCase().indexOf(Menus[i][0].toLowerCase()) !=3D -1)=0A=
+		{=0A=
+			lyr.visibility =3D 'visible';=0A=
+			img_act('top_' + Menus[i][0].toLowerCase());=0A=
+		} else=0A=
+		{=0A=
+			lyr.visibility =3D 'hidden';=0A=
+			img_inact('top_' + Menus[i][0].toLowerCase());=0A=
+		}=0A=
+	}=0A=
+}=0A=
+=0A=
+// img_act and img_inact=0A=
+// parameters: name, a string for the NAME attribute of some IMG tag in =
+the document=0A=
+// This is a generic function to impliment rollovers.  The requirements =
+are that the IMG tags not be located inside a DIV or LAYER tag,=0A=
+// that the filename of the image sans the extension and "_hl" is =
+equivalent to the NAME attribute of the IMG tag, that the images be =
+gif's, and=0A=
+// that the images are located in includes/img/ with the image filenames =
+being identical except for a "_hl" just before the extension.=0A=
+// example: "myimage.gif" and "myimage_hl.gif"  (hl is assumed to mean =
+"HighLighted")=0A=
+// returns nothing=0A=
+function img_act(name)=0A=
+{=0A=
+	document[name].src =3D "/includes/img/" + name + "_hl.gif";=0A=
+}=0A=
+=0A=
+function img_inact(name)=0A=
+{=0A=
+	document[name].src =3D "/includes/img/" + name + ".gif";=0A=
+}=0A=
+=0A=
+// rotateHeadlines=0A=
+// parameters: none=0A=
+// simply toggles the visibilities of the layers whose ID's are =
+"headline" and "headline1"=0A=
+// returns nothing=0A=
+function rotateHeadlines()=0A=
+{=0A=
+	h0 =3D getLayerObj('headlinea');=0A=
+	h1 =3D getLayerObj('headlineb');=0A=
+	if(h0.visibility =3D=3D 'hidden')=0A=
+	{=0A=
+		h1.visibility =3D 'hidden';=0A=
+		h0.visibility =3D 'visible';=0A=
+	} else=0A=
+	{=0A=
+		h0.visibility =3D 'hidden';=0A=
+		h1.visibility =3D 'visible';=0A=
+	}=0A=
+}=0A=
+
+------=_NextPart_000_0000_01C3170C.CB50C360--
